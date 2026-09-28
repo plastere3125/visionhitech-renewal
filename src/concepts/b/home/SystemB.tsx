@@ -14,7 +14,7 @@ import { ArrowB, Brackets, HeadB, Wrap } from "../ui";
 export function TechBentoB() {
   const { homeB } = getContent();
   return (
-    <section aria-labelledby="tech-b" className="border-t border-line py-24 md:py-32">
+    <section aria-labelledby="tech-b" className="border-t border-line py-28 md:py-40">
       <Wrap>
         <HeadB n="02" label={homeB.bento.label} title={<span id="tech-b">{homeB.bento.title}</span>} aside={<CLinkB href="/solutions/technology/">All technologies</CLinkB>} />
         <div className="mt-14 grid grid-cols-1 gap-3 md:grid-cols-6 lg:grid-cols-12 lg:auto-rows-[minmax(250px,auto)]">
@@ -184,7 +184,7 @@ export function EcosystemB() {
   const lit = (a: NodeId, b: NodeId) => a === sel || b === sel;
 
   return (
-    <section aria-labelledby="eco-b" className="border-t border-line bg-panel py-24 md:py-32">
+    <section aria-labelledby="eco-b" className="border-t border-line bg-panel py-28 md:py-40">
       <Wrap>
         <HeadB n="03" label={homeB.ecosystem.label} title={<span id="eco-b">{homeB.ecosystem.title}</span>} aside={<p className="max-w-xs text-sm text-mute">{homeB.ecosystem.body}</p>} />
         <div className="mt-14 grid gap-8 lg:grid-cols-12">

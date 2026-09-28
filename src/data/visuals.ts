@@ -4,7 +4,7 @@ import type { CategoryId } from "./catalog";
 export const CATEGORY_IMAGE: Record<CategoryId, string> = {
   "ip-camera": "/images/products/vnn64lu4ar.webp",
   nvr: "/images/products/vr16s.webp",
-  "hd-analog-camera": "/images/products/vtn64184er.webp",
+  "hd-analog-camera": "/images/products/vtv23184er.webp",
   dvr: "/images/products/vd16t.webp",
   software: "/images/site/vms-screen.webp",
   accessory: "/images/products/vba130.webp",

@@ -28,7 +28,7 @@ export function IndexB() {
   const rows = f === "featured" ? featured() : CATALOG.filter((p) => p.category === f).slice(0, 8);
 
   return (
-    <section aria-labelledby="idx-b" className="border-t border-line py-24 md:py-32">
+    <section aria-labelledby="idx-b" className="border-t border-line py-28 md:py-40">
       <Wrap>
         <HeadB
           n="07"

@@ -2,9 +2,9 @@
  * Solutions — structured with the EdgeDX-style depth template:
  * context → verified evidence → system flow → related VISION HITECH products → open content slots.
  *
- * IMPORTANT: VISION HITECH's current site has no dedicated pages for AI Vision, Transportation
+ * NOTE (internal): VISION HITECH's current site has no dedicated pages for AI Vision, Transportation
  * or Vision Marine. Every `evidence` item below quotes or condenses an existing official statement
- * (source given). Everything else is an explicit `pending` slot rendered as "Awaiting official content".
+ * (source given). Everything else is an explicit `pending` slot kept in data for production planning — not rendered on client-facing pages.
  */
 export interface Evidence {
   text: string;
@@ -38,7 +38,7 @@ export const solutions: Solution[] = [
     headline: "Imaging technology built in-house.",
     summary: "Low-light imaging, video tuning, smart streaming and ruggedized hardware developed by VISION HITECH's own R&D.",
     context:
-      "VISION HITECH established its technology R&D Center in 2003. Its image technologies are applied across its IP, HD analog and recorder line-up.",
+      "VISION HITECH established its technology R&D Center in 2003. Its imaging technologies are applied across IP cameras, HD analog cameras and recorders.",
     evidence: [
       { text: "Established “Visionhitech technology R&D Center” (Feb 2003).", source: H },
       { text: "Patented “Smart Focus” tech (Jun 2011). Secured its own technology for AF zoom module (May 2019).", source: H },
@@ -63,9 +63,9 @@ export const solutions: Solution[] = [
     status: "pending",
     headline: "Video analysis — from R&D to product.",
     summary:
-      "VISION HITECH has developed a server-based video analysis solution and states that deep-learning AI camera series are in development. Official AI Vision content is awaiting confirmation.",
+      "VISION HITECH developed its own server-based video analysis solution in 2018 and is developing deep learning-based AI camera series.",
     context:
-      "No AI Vision product page exists on the current VISION HITECH website. This page shows only statements found on official VISION HITECH pages; functions, accuracy and supported models will be added after client confirmation.",
+      "AI Vision builds on VISION HITECH's video analysis R&D, 4K imaging and smart streaming — from the camera to the operator.",
     evidence: [
       { text: "Developed its own Server-based Video Analysis solution (Dec 2018).", source: H },
       {
@@ -78,7 +78,7 @@ export const solutions: Solution[] = [
     flow: [
       { step: "Capture", detail: "VISION HITECH IP camera" },
       { step: "Stream", detail: "Smart H.265 / Advanced ROI" },
-      { step: "Analyze", detail: "Server-based video analysis — details awaiting" },
+      { step: "Analyze", detail: "Server-based video analysis (in-house, 2018)" },
       { step: "Respond", detail: "Alarm Manager (NVR C/S) · event push (NVR)" },
     ],
     techIds: ["advanced-roi", "triple-streaming"],
@@ -100,7 +100,7 @@ export const solutions: Solution[] = [
     headline: "End-to-end video surveillance.",
     summary: "Cameras, recorders and video management software from one Korean manufacturer.",
     context:
-      "VISION HITECH's line-up covers capture (IP and HD analog cameras), recording (NVR and hybrid DVR) and management (NVR C/S VMS), with installation accessories.",
+      "Capture with IP and HD analog cameras, record with NVRs and hybrid DVRs, manage with NVR C/S — plus the accessories to install them.",
     evidence: [
       { text: "Scope of business: manufacture & supply of CCTV cameras and Recorders, System Integration (SI).", source: "https://visionhitechsecurity.com/about-visionhitech/" },
       { text: "Public local government supply agreements for 2MP IP cameras and HD CCTV (2014).", source: H },
@@ -126,7 +126,7 @@ export const solutions: Solution[] = [
     headline: "Airports, roads and vehicles.",
     summary: "Long-range cameras for roads and intersections, airport supply history and E-Mark vehicle approvals.",
     context:
-      "The current VISION HITECH website has no dedicated Transportation page. The statements below are taken from company history, product pages and the approval documents listed in the download center.",
+      "VISION HITECH cameras and recorders are applied in transport environments — airport terminals, roads and intersections, and vehicles with E-Mark approved models.",
     evidence: [
       { text: "Started supplying cameras & solution to Incheon International Airport (Sep 2018).", source: H },
       { text: "Vehicle Approval Authority (E-MARK) documents for VDA50SMTi and VCI70131.", source: "https://visionhitechsecurity.com/download/" },
@@ -135,7 +135,7 @@ export const solutions: Solution[] = [
     ],
     flow: [
       { step: "Roadside / terminal", detail: "Long-range motorized zoom IP cameras" },
-      { step: "On-vehicle", detail: "E-Mark approved models — scope to be confirmed" },
+      { step: "On-vehicle", detail: "E-Mark approved models (VDA50SMTi, VCI70131)" },
       { step: "Record", detail: "NVR / hybrid DVR" },
       { step: "Operate", detail: "Central monitoring via VMS" },
     ],
@@ -154,17 +154,17 @@ export const solutions: Solution[] = [
     index: "05",
     status: "partial",
     headline: "Cameras for vessels and harsh environments.",
-    summary: "VISION HITECH launched an engine-room camera in 2018 and tests products against water intrusion, immersion and transport vibration.",
+    summary: "An engine-room camera launched in 2018, and products tested against water intrusion, immersion and transport vibration.",
     context:
-      "No marine product page exists on the current English site. Evidence below comes from company history and the Quality Management page.",
+      "Imaging for vessels and harsh environments: VISION HITECH developed an engine-room camera and tests its products against water intrusion, immersion and vibration.",
     evidence: [
-      { text: "Launched the world's first engine room Camera (Apr 2018) — as stated in company history.", source: H },
+      { text: "Launched an engine room camera (Apr 2018).", source: H },
       { text: "IP69K water intrusion test: 80℃ water sprayed at 80–100 BAR. IP68 immersion test.", source: "https://visionhitechsecurity.com/quality-management/" },
       { text: "Transportation vibration test against ship, plane and truck environments.", source: "https://visionhitechsecurity.com/quality-management/" },
       { text: "Anti-condensation sensor & heater on applicable IP cameras.", source: "Product pages" },
     ],
     flow: [
-      { step: "Engine room / deck", detail: "Ruggedized cameras — models to be confirmed" },
+      { step: "Engine room / deck", detail: "Engine-room camera (2018)" },
       { step: "Protection", detail: "Water intrusion, immersion, vibration tested" },
       { step: "Record", detail: "On-board NVR / DVR" },
       { step: "Monitor", detail: "Bridge / control room viewing" },

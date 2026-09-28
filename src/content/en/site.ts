@@ -139,8 +139,8 @@ export const site = {
     skipToContent: "Skip to content",
     languageComingSoon: "Japanese site coming soon",
     comingSoon: "Coming soon",
-    placeholder: "Awaiting official content",
-    placeholderShort: "To be confirmed",
+    placeholder: "Coming soon",
+    placeholderShort: "Coming soon",
     prototypeBanner: "Design prototype · Concept review",
     allProducts: "All products",
     models: "models",
@@ -149,7 +149,7 @@ export const site = {
 
   inquiry: {
     title: "Product Inquiry",
-    intro: "Tell us about your project. Our sales team replies from Korea.",
+    intro: "Tell us about your project and the models you need.",
     fields: {
       name: "Name",
       company: "Company",
@@ -171,7 +171,7 @@ export const site = {
   footer: {
     statement: "Visionhitech Co., Ltd. designs and manufactures CCTV cameras and recorders in Korea.",
     copyright: "© Visionhitech Co., Ltd. All rights reserved.",
-    prototypeNote: "Design prototype for internal and client review. Not the official VISION HITECH website.",
+    prototypeNote: "Design prototype",
   },
 };
 

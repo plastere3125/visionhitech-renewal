@@ -2,7 +2,6 @@ import { getContent } from "@/content";
 import { CLink } from "@/components/shared/CLink";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton } from "@/components/shared/Inquiry";
-import { Placeholder } from "@/components/shared/Placeholder";
 import { productLine, relatedProducts, type Product } from "@/data/products";
 import { techIdsFor } from "@/lib/techMap";
 import { ProductCardB } from "../ProductCardB";
@@ -205,7 +204,7 @@ export function ProductDetailB({ product: p }: { product: Product }) {
         <Wrap className="grid gap-8 lg:grid-cols-12">
           <div className="lg:col-span-4">
             <Code>Documents</Code>
-            <p className="mt-4 text-sm text-mute">{p.publicFiles ? "Public files on the current VISION HITECH website." : "Document types listed for this model — provided by the sales team on request."}</p>
+            <p className="mt-4 text-sm text-mute">{p.publicFiles ? "Download the files below." : "Document types listed for this model — provided by the sales team on request."}</p>
           </div>
           <ul className="border-t border-line lg:col-span-8">
             {p.publicFiles
@@ -239,17 +238,6 @@ export function ProductDetailB({ product: p }: { product: Product }) {
             ))}
           </ul>
           <div className="mt-10 space-y-3">
-            {p.notes.map((n) => (
-              <Placeholder key={n} compact>
-                Content note: {n}
-              </Placeholder>
-            ))}
-            <p className="font-mono text-[0.68rem] text-mute">
-              SOURCE ·{" "}
-              <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
-                {p.sourceUrl.replace("https://", "")}
-              </a>
-            </p>
           </div>
         </Wrap>
       </section>

@@ -10,14 +10,18 @@ import { cn } from "@/lib/cn";
 import { Arrow } from "../HeaderA";
 import { btnGhost, btnPrimary } from "../ui";
 
-/** Callout anchor points (percent of the studio panel) — product sits centred. */
+/** Callout anchor points (percent of the product canvas). */
 const ANCHORS = [
-  { x: 5, y: 14, align: "left" },
-  { x: 95, y: 20, align: "right" },
-  { x: 5, y: 70, align: "left" },
-  { x: 95, y: 74, align: "right" },
+  { x: 4, y: 7, align: "left" },
+  { x: 96, y: 7, align: "right" },
+  { x: 4, y: 88, align: "left" },
+  { x: 96, y: 88, align: "right" },
 ] as const;
 
+/**
+ * Concept A hero — the product canvas bleeds to the right edge of the viewport and the
+ * actual VISION HITECH product is the largest element on the page.
+ */
 export function HeroA() {
   const { homeA, site } = getContent();
   const [idx, setIdx] = useState(0);
@@ -25,31 +29,70 @@ export function HeroA() {
   const product = getItem(item.slug)!;
 
   return (
-    <section aria-labelledby="hero-a-title" className="relative overflow-hidden">
-      <div className="mx-auto grid max-w-[1440px] gap-10 px-5 pt-8 pb-10 md:px-10 lg:grid-cols-12 lg:gap-12 lg:pt-14 lg:pb-16">
-        <div className="flex flex-col justify-between lg:col-span-5 lg:py-6">
-          <div>
-            <p className="a-label flex items-center gap-3 text-mute">
-              <span aria-hidden className="h-2 w-2 rounded-full bg-accent" />
-              {homeA.hero.eyebrow}
-            </p>
-            <h1 id="hero-a-title" className="a-display mt-7 text-[2.7rem] sm:text-[3.8rem] xl:text-[4.7rem]">
-              {homeA.hero.title[0]}
-              <br />
-              <span className="text-fg/45">{homeA.hero.title[1]}</span>
-            </h1>
-            <p className="mt-7 max-w-md text-[1.08rem] leading-relaxed text-fg/75">{homeA.hero.body}</p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <CLink concept="a" href="/products/" className={btnPrimary}>
-                {homeA.hero.primary} <Arrow />
-              </CLink>
-              <InquiryButton className={btnGhost}>{homeA.hero.secondary}</InquiryButton>
-            </div>
+    <section aria-labelledby="hero-a-title" className="relative overflow-hidden border-b border-line">
+      <div className="grid xl:min-h-[calc(100svh-76px)] xl:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+        {/* copy — aligned to the 1440 container on the left */}
+        <div className="flex min-w-0 flex-col justify-center px-5 pt-12 pb-10 md:px-10 md:pt-16 xl:py-20 xl:pr-12 xl:pl-[max(2.5rem,calc((100vw-1440px)/2+2.5rem))]">
+          <p className="a-label flex items-center gap-3 text-mute">
+            <span aria-hidden className="h-2 w-2 rounded-full bg-accent" />
+            {homeA.hero.eyebrow}
+          </p>
+          <h1 id="hero-a-title" className="a-display mt-8 text-[2.7rem] sm:text-[4rem] xl:text-[4.6rem] 2xl:text-[5.2rem]">
+            {homeA.hero.title[0]}
+            <br />
+            <span className="text-fg/40">{homeA.hero.title[1]}</span>
+          </h1>
+          <p className="mt-8 max-w-sm text-[1.05rem] leading-relaxed text-mute">{homeA.hero.body}</p>
+          <div className="mt-10 flex flex-wrap gap-3">
+            <CLink concept="a" href="/products/" className={btnPrimary}>
+              {homeA.hero.primary} <Arrow />
+            </CLink>
+            <InquiryButton className={btnGhost}>{homeA.hero.secondary}</InquiryButton>
+          </div>
+        </div>
+
+        {/* product canvas */}
+        <div id="hero-a-panel" role="tabpanel" aria-live="polite" className="relative min-h-[440px] bg-studio sm:min-h-[600px] xl:min-h-0">
+          <div className="absolute inset-x-0 top-0 bottom-[168px] sm:bottom-[120px]">
+            <Img
+              key={product.slug}
+              src={product.image}
+              alt={`${product.model} — ${product.subtitle ?? product.title}`}
+              fill
+              priority
+              sizes="(min-width: 1024px) 58vw, 100vw"
+              className="animate-[heroin_.8s_cubic-bezier(.2,.7,.2,1)] scale-[1.12] object-contain"
+            />
+            <ul className="hidden md:block">
+              {item.callouts.map((c, i) => {
+                const a = ANCHORS[i];
+                return (
+                  <li
+                    key={`${product.slug}-${c}`}
+                    className="absolute animate-[heroin_.7s_ease_both] text-[0.8rem] font-medium whitespace-nowrap"
+                    style={{ left: `${a.x}%`, top: `${a.y}%`, translate: a.align === "right" ? "-100% 0" : undefined, animationDelay: `${200 + i * 90}ms` }}
+                  >
+                    <span className={cn("flex items-center gap-2", a.align === "right" && "flex-row-reverse")}>
+                      <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-accent" />
+                      <span aria-hidden className="h-px w-10 bg-fg/25" />
+                      <span className="bg-white/85 px-2 py-1 text-fg/85">{c}</span>
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
 
-          <div className="mt-12 hidden lg:block" role="tablist" aria-label={homeA.hero.tabsLabel}>
-            <p className="a-label mb-4 text-mute">{homeA.hero.tabsLabel}</p>
-            <div className="grid grid-cols-2 gap-px bg-line">
+          {/* model + switcher */}
+          <div className="absolute inset-x-0 bottom-0 flex flex-col gap-3 border-t border-fg/10 bg-studio px-5 py-4 sm:flex-row sm:items-end sm:justify-between sm:gap-4 md:px-8">
+            <div className="min-w-0">
+              <p className="font-mono text-[0.68rem] text-mute uppercase">{item.label}</p>
+              <p className="a-display mt-1 text-[1.6rem] md:text-[2.2rem]">{product.model}</p>
+              <CLink concept="a" href={`/products/${product.slug}/`} className="mt-1 inline-flex items-center gap-1.5 text-[0.8rem] font-semibold hover:text-accent-ink">
+                {site.ui.viewProduct} <Arrow />
+              </CLink>
+            </div>
+            <div role="tablist" aria-label={homeA.hero.tabsLabel} className="flex shrink-0 gap-1.5">
               {homeA.heroProducts.map((hp, i) => {
                 const p = getItem(hp.slug)!;
                 return (
@@ -58,81 +101,18 @@ export function HeroA() {
                     role="tab"
                     aria-selected={i === idx}
                     aria-controls="hero-a-panel"
+                    aria-label={`${hp.label} ${p.model}`}
                     onClick={() => setIdx(i)}
-                    className={cn("group relative bg-white px-4 py-4 text-left transition-colors", i === idx ? "bg-panel" : "hover:bg-panel")}
+                    className={cn(
+                      "relative h-14 w-14 overflow-hidden border bg-studio transition-colors sm:h-[72px] sm:w-[72px]",
+                      i === idx ? "border-fg" : "border-fg/10 hover:border-fg/40",
+                    )}
                   >
-                    <span className={cn("absolute inset-x-0 top-0 h-[2px] bg-accent transition-transform duration-500", i === idx ? "scale-x-100" : "scale-x-0")} />
-                    <span className="block font-mono text-[0.7rem] text-mute">{hp.label}</span>
-                    <span className="mt-1 block font-semibold">{p.model}</span>
+                    <Img src={p.image.replace(".webp", "-sm.webp")} alt="" fill sizes="72px" className="scale-125 object-contain" />
                   </button>
                 );
               })}
             </div>
-          </div>
-        </div>
-
-        <div className="lg:col-span-7">
-          <div id="hero-a-panel" role="tabpanel" aria-live="polite" className="relative aspect-[4/3.4] overflow-hidden bg-studio sm:aspect-[4/3] lg:aspect-auto lg:h-full lg:min-h-[640px]">
-            <Img
-              key={product.slug}
-              src={product.image}
-              alt={`${product.model} — ${product.subtitle ?? product.title}`}
-              fill
-              priority
-              sizes="(min-width: 1024px) 55vw, 100vw"
-              className="animate-[heroin_.7s_cubic-bezier(.2,.7,.2,1)] scale-[1.08] object-contain"
-            />
-            {/* Spec callouts — verified values from the product page */}
-            <ul className="hidden md:block">
-              {item.callouts.map((c, i) => {
-                const a = ANCHORS[i];
-                return (
-                  <li
-                    key={`${product.slug}-${c}`}
-                    className="absolute animate-[heroin_.7s_ease_both] text-[0.82rem] font-medium whitespace-nowrap"
-                    style={{ left: `${a.x}%`, top: `${a.y}%`, translate: a.align === "right" ? "-100% 0" : undefined, animationDelay: `${150 + i * 90}ms` }}
-                  >
-                    <span className={cn("flex items-center gap-2", a.align === "right" && "flex-row-reverse")}>
-                      <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-accent" />
-                      <span aria-hidden className="h-px w-8 bg-fg/30" />
-                      <span className="bg-white/80 px-2 py-1 backdrop-blur-sm">{c}</span>
-                    </span>
-                  </li>
-                );
-              })}
-            </ul>
-            <div className="absolute right-4 bottom-4 left-4 flex items-end justify-between gap-4 md:right-6 md:bottom-6 md:left-6">
-              <div>
-                <p className="font-mono text-[0.7rem] text-mute uppercase">{product.tier}</p>
-                <p className="a-display mt-1 text-2xl md:text-3xl">{product.model}</p>
-              </div>
-              <CLink concept="a" href={`/products/${product.slug}/`} className="inline-flex shrink-0 items-center gap-2 bg-white px-4 py-2.5 text-[0.8rem] font-semibold hover:bg-fg hover:text-white">
-                {site.ui.viewProduct} <Arrow />
-              </CLink>
-            </div>
-          </div>
-          {/* Mobile: callouts as list + tabs */}
-          <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-[0.82rem] md:hidden">
-            {item.callouts.map((c) => (
-              <li key={c} className="flex items-center gap-2">
-                <span aria-hidden className="h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                {c}
-              </li>
-            ))}
-          </ul>
-          <div className="no-scrollbar mt-5 flex gap-2 overflow-x-auto lg:hidden" role="tablist" aria-label={homeA.hero.tabsLabel}>
-            {homeA.heroProducts.map((hp, i) => (
-              <button
-                key={hp.slug}
-                role="tab"
-                aria-selected={i === idx}
-                onClick={() => setIdx(i)}
-                className={cn("shrink-0 border px-3.5 py-2 text-left text-xs", i === idx ? "border-fg bg-fg text-white" : "border-line")}
-              >
-                <span className="block opacity-70">{hp.label}</span>
-                <span className="font-semibold">{getItem(hp.slug)!.model}</span>
-              </button>
-            ))}
           </div>
         </div>
       </div>

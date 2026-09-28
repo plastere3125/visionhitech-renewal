@@ -2,7 +2,6 @@ import { getContent } from "@/content";
 import { CLink } from "@/components/shared/CLink";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton } from "@/components/shared/Inquiry";
-import { Placeholder } from "@/components/shared/Placeholder";
 import { productLine, relatedProducts, type Product } from "@/data/products";
 import { techIdsFor } from "@/lib/techMap";
 import { Arrow } from "../HeaderA";
@@ -65,7 +64,7 @@ export function ProductDetailA({ product: p }: { product: Product }) {
                 {cat.short} · {p.series}
               </span>
             </div>
-            <p className="mt-3 text-xs text-mute">Product image: VISION HITECH</p>
+            
           </div>
         </div>
 
@@ -218,7 +217,7 @@ export function ProductDetailA({ product: p }: { product: Product }) {
               Available documents
             </h2>
             <p className="mt-4 text-sm text-mute">
-              {p.publicFiles ? "Public files from the current VISION HITECH website." : "Document types listed for this model. Files are provided by the VISION HITECH sales team on request."}
+              {p.publicFiles ? "Download the files below." : "Document types listed for this model. Files are provided by the VISION HITECH sales team on request."}
             </p>
           </div>
           <ul className="grid gap-px border border-line bg-line sm:grid-cols-2 lg:col-span-9 lg:grid-cols-3">
@@ -256,17 +255,6 @@ export function ProductDetailA({ product: p }: { product: Product }) {
             ))}
           </ul>
           <div className="mt-12 space-y-3">
-            {p.notes.map((n) => (
-              <Placeholder key={n} compact>
-                Content note: {n}
-              </Placeholder>
-            ))}
-            <p className="text-xs text-mute">
-              {site.ui.sourceLabel}:{" "}
-              <a href={p.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
-                {p.sourceUrl.replace("https://", "")}
-              </a>
-            </p>
           </div>
         </Container>
       </section>

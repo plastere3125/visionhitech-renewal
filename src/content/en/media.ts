@@ -30,5 +30,5 @@ export const media = {
     { id: "youtube", label: "Youtube", status: "pending" as const },
     { id: "linkedin", label: "LinkedIn", status: "pending" as const },
   ],
-  archiveNote: "Latest posts on the current site date from June 2020. New posts awaiting official content.",
+  archiveNote: "",
 };

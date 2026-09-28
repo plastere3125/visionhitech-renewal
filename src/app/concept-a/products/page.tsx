@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <>
-      <PageHeroA label="Products" title="Products" body={`${PRODUCTS.length} models across six categories, from the current VISION HITECH catalogue.`} />
+      <PageHeroA label="Products" title="Products" body={`${PRODUCTS.length} models across six product families.`} />
       <div className="py-12 md:py-16">
         <ProductsExplorerA />
       </div>

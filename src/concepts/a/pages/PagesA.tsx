@@ -4,7 +4,7 @@ import { CLink } from "@/components/shared/CLink";
 import { CompareSlider } from "@/components/shared/CompareSlider";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton, InquiryForm } from "@/components/shared/Inquiry";
-import { PendingTag, Placeholder } from "@/components/shared/Placeholder";
+import { Placeholder } from "@/components/shared/Placeholder";
 import { Reveal } from "@/components/shared/Reveal";
 import { getProduct, type Product } from "@/data/products";
 import type { Solution } from "@/content/en/solutions";
@@ -35,16 +35,13 @@ export function PageHeroA({ label, title, body, children }: { label: string; tit
   );
 }
 
-function statusLabel(s: Solution["status"]) {
-  return s === "verified" ? "Verified content" : s === "partial" ? "Partially verified" : "Awaiting official content";
-}
 
 /* ---------------- Solutions overview ---------------- */
 export function SolutionsOverviewA() {
   const { solutions } = getContent();
   return (
     <>
-      <PageHeroA label="Solutions" title="Technology and where it works." body="Five solution areas from the VISION HITECH sitemap. Each page separates verified VISION HITECH statements from content still awaiting confirmation." />
+      <PageHeroA label="Solutions" title="Technology and where it works." body="Imaging technology and the environments where VISION HITECH cameras work." />
       <Container className="py-16 md:py-20">
         <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-6">
           {solutions.map((s, i) => (
@@ -55,10 +52,7 @@ export function SolutionsOverviewA() {
                   {s.image.credit && <span className="absolute right-2 bottom-1.5 text-[0.58rem] text-white/80 drop-shadow">Photo: {s.image.credit}</span>}
                 </div>
                 <div className="flex flex-1 flex-col p-6 md:p-7">
-                  <div className="flex items-center justify-between gap-3">
-                    <span className="font-mono text-[0.7rem] text-mute">{s.index}</span>
-                    {s.status !== "verified" && <PendingTag />}
-                  </div>
+                  <span className="font-mono text-[0.7rem] text-mute">{s.index}</span>
                   <h2 className="a-display mt-3 text-[2rem]">{s.name}</h2>
                   <p className="mt-2 text-sm leading-relaxed text-mute">{s.summary}</p>
                   <span className="mt-auto inline-flex items-center gap-2 pt-6 text-sm font-semibold">
@@ -94,7 +88,7 @@ export function SolutionDetailA({ solution: s }: { solution: Solution }) {
             / <span aria-current="page">{s.name}</span>
           </nav>
           <p className="a-label mt-10 flex items-center gap-3 text-white/60">
-            <span aria-hidden className="h-px w-8 bg-accent" /> {s.index} · {statusLabel(s.status)}
+            <span aria-hidden className="h-px w-8 bg-accent" /> Solutions · {s.index}
           </p>
           <h1 className="a-display mt-5 max-w-[16ch] text-[2.8rem] md:text-[5rem]">{s.name}</h1>
           <p className="mt-5 max-w-xl text-[1.15rem] text-white/75">{s.headline}</p>
@@ -109,14 +103,13 @@ export function SolutionDetailA({ solution: s }: { solution: Solution }) {
           <p className="mt-4 text-sm leading-relaxed text-mute">{s.context}</p>
         </div>
         <div className="lg:col-span-7 lg:col-start-6">
-          <p className="a-label text-mute">Verified by VISION HITECH sources</p>
+          <p className="a-label text-mute">Key facts</p>
           <ol className="mt-4 border-t border-line">
             {s.evidence.map((e, i) => (
               <li key={e.text} className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-2 border-b border-line py-5">
                 <span className="font-mono text-xs text-accent-ink">{String(i + 1).padStart(2, "0")}</span>
                 <div className="min-w-0">
                   <p className="text-[0.98rem] leading-relaxed">{e.text}</p>
-                  <p className="mt-1.5 truncate text-xs text-mute">Source: {e.source.replace("https://", "")}</p>
                 </div>
               </li>
             ))}
@@ -177,24 +170,6 @@ export function SolutionDetailA({ solution: s }: { solution: Solution }) {
         </Container>
       </section>
 
-      <section aria-labelledby="pending" className="border-t border-line py-16">
-        <Container className="grid gap-8 lg:grid-cols-12">
-          <div className="lg:col-span-4">
-            <h2 id="pending" className="a-label text-mute">
-              Content slots for production
-            </h2>
-            <p className="mt-3 text-sm text-mute">Reserved in the layout; filled only with official VISION HITECH information.</p>
-          </div>
-          <ul className="grid gap-3 sm:grid-cols-2 lg:col-span-8">
-            {s.pending.map((x) => (
-              <li key={x}>
-                <Placeholder className="h-full">{x}</Placeholder>
-              </li>
-            ))}
-          </ul>
-        </Container>
-      </section>
-
       <Container className="flex flex-col gap-6 border-t border-line py-12 md:flex-row md:items-center md:justify-between">
         <InquiryButton className={btnPrimary}>
           Discuss a {s.name} project <Arrow />
@@ -236,7 +211,6 @@ export function SupportPageA() {
               <h2 id={`${s.id}-h`} className="text-[1.5rem] font-semibold tracking-[-0.02em]">
                 {s.title}
               </h2>
-              {s.status !== "verified" && <PendingTag />}
             </div>
             <p className="mt-3 text-sm text-mute">{s.body}</p>
             {s.items.length > 0 ? (
@@ -249,7 +223,9 @@ export function SupportPageA() {
                 ))}
               </ul>
             ) : (
-              <Placeholder className="mt-6">{s.title} content will be provided by VISION HITECH.</Placeholder>
+              <InquiryButton className="mt-6 inline-flex items-center gap-2 border-t border-line pt-5 text-sm font-semibold hover:text-accent-ink">
+                Contact our team <Arrow />
+              </InquiryButton>
             )}
           </section>
         ))}
@@ -299,9 +275,6 @@ export function SupportPageA() {
                 </li>
               ))}
             </ol>
-            <Placeholder compact className="mt-6">
-              {support.warranty.confirmNote}
-            </Placeholder>
           </div>
         </Container>
       </section>
@@ -382,7 +355,6 @@ export function CompanyPageA() {
               <h2 id="history-h" className="a-display mt-4 text-[2.6rem] md:text-[3.6rem]">
                 1997 — 2020
               </h2>
-              <p className="mt-4 text-sm text-mute">Milestones as published on the current VISION HITECH website. Entries after 2020 awaiting official content.</p>
             </div>
           </div>
           <ol className="lg:col-span-8">
@@ -496,9 +468,6 @@ export function ContactPageA() {
           <div className="relative mt-8 aspect-[4/3] overflow-hidden bg-studio">
             <Img src="/images/site/hq-building.webp" alt="VISION HITECH head office, Bucheon" fill sizes="30vw" className="object-cover" />
           </div>
-          <Placeholder compact className="mt-4">
-            Map embed and regional sales contacts — to be confirmed.
-          </Placeholder>
         </aside>
       </Container>
     </>
@@ -529,7 +498,6 @@ export function MediaPageA() {
             </li>
           ))}
         </ul>
-        <p className="mt-4 text-xs text-mute">{media.archiveNote}</p>
       </Container>
       <Container className="grid gap-4 pb-20 sm:grid-cols-2 lg:grid-cols-4">
         {media.channels.map((c) => (

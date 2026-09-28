@@ -15,14 +15,14 @@ export const support = {
     {
       id: "marketing-materials",
       title: "Marketing Materials",
-      body: "Product guides published by VISION HITECH.",
+      body: "Product guides and brochures.",
       status: "verified" as const,
       items: ["VISIONHITECH PRODUCT GUIDE 2021", "VISIONHITECH PRODUCT GUIDE 2019"],
     },
     {
       id: "download",
       title: "Download",
-      body: "Download center categories on the current site.",
+      body: "Software, utilities and compliance files by product category.",
       status: "verified" as const,
       items: ["IP Camera (2MP / 4MP / 6MP / 4K / Specialty)", "HD Analog", "NVR", "DVR", "VMS", "Accessories", "General — IPScan Utility 1.1.5.1"],
     },

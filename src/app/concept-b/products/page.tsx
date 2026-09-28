@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <>
-      <PageHeroB code={`Products · ${PRODUCTS.length} models`} title="Product index" body="IP cameras, recorders, HD analog cameras, software and accessories from the current VISION HITECH catalogue." />
+      <PageHeroB code={`Products · ${PRODUCTS.length} models`} title="Product index" body="IP cameras, recorders, HD analog cameras, software and accessories." />
       <div className="pt-10 md:pt-14">
         <ProductsExplorerB />
       </div>

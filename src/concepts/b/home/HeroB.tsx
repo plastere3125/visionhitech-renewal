@@ -76,7 +76,7 @@ export function HeroB() {
             <li key={s.id} className="relative border-line px-5 py-5 md:border-l md:px-6 first:md:border-l-0 [&:nth-child(n+3)]:border-t md:[&:nth-child(n+3)]:border-t-0">
               <a href={`#chain-${s.id}`} className="group block">
                 <span className="b-code text-accent">{s.code}</span>
-                <span className="mt-1 block text-[0.95rem] font-medium group-hover:text-accent">{s.name}</span>
+                <span className="mt-1.5 block text-[1.05rem] font-medium group-hover:text-accent md:text-[1.2rem]">{s.name}</span>
               </a>
               {i < steps.length - 1 && (
                 <svg aria-hidden className="absolute top-1/2 right-0 hidden h-2 w-full translate-x-1/2 md:block" viewBox="0 0 120 8" preserveAspectRatio="none">

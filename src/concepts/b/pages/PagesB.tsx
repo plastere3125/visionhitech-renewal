@@ -4,7 +4,7 @@ import { CLink } from "@/components/shared/CLink";
 import { CompareSlider } from "@/components/shared/CompareSlider";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton, InquiryForm } from "@/components/shared/Inquiry";
-import { PendingTag, Placeholder } from "@/components/shared/Placeholder";
+import { Placeholder } from "@/components/shared/Placeholder";
 import { Reveal } from "@/components/shared/Reveal";
 import type { Solution } from "@/content/en/solutions";
 import { getProduct, type Product } from "@/data/products";
@@ -31,14 +31,13 @@ export function PageHeroB({ code, title, body, children }: { code: string; title
   );
 }
 
-const STATUS = { verified: "VERIFIED", partial: "PARTIAL", pending: "PENDING" } as const;
 
 /* ---------------- Solutions overview: indexed rows ---------------- */
 export function SolutionsOverviewB() {
   const { solutions } = getContent();
   return (
     <>
-      <PageHeroB code="Solutions · 05 areas" title="From technology to application." body="Each area separates verified VISION HITECH statements from content awaiting confirmation." />
+      <PageHeroB code="Solutions · 05 areas" title="From technology to application." body="Imaging technology and the environments where VISION HITECH cameras work." />
       <Wrap className="py-10 md:py-16">
         <ol className="border-t border-line">
           {solutions.map((s) => (
@@ -49,7 +48,6 @@ export function SolutionsOverviewB() {
                 <p className="col-start-2 text-sm text-mute lg:col-start-auto">{s.summary}</p>
                 <div className="relative col-start-2 aspect-[16/10] max-w-sm overflow-hidden border border-line lg:col-start-auto lg:max-w-none">
                   <Img src={s.image.src} alt={s.image.alt} fill sizes="14rem" className="object-cover opacity-70 grayscale transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0" />
-                  <span className="absolute top-2 left-2 font-mono text-[0.58rem] text-white">{STATUS[s.status]}</span>
                   {s.image.credit && <span className="absolute right-1.5 bottom-1 text-[0.5rem] text-white/75">Photo: {s.image.credit}</span>}
                 </div>
                 <ArrowB className="hidden text-mute transition-all group-hover:translate-x-1 group-hover:text-accent lg:block" />
@@ -82,10 +80,6 @@ export function SolutionDetailB({ solution: s }: { solution: Solution }) {
             </CLink>{" "}
             / {s.index}
           </p>
-          <div className="mt-6 flex items-center gap-3">
-            <span className="b-code text-accent">{STATUS[s.status]}</span>
-            {s.status !== "verified" && <PendingTag />}
-          </div>
           <h1 className="b-display mt-4 text-[3rem] md:text-[5.4rem]">{s.name}</h1>
           <p className="mt-3 max-w-xl text-lg text-fg/75">{s.headline}</p>
         </Wrap>
@@ -116,16 +110,15 @@ export function SolutionDetailB({ solution: s }: { solution: Solution }) {
 
       <Wrap className="grid gap-12 border-b border-line py-16 md:py-20 lg:grid-cols-12">
         <div className="lg:col-span-4">
-          <Code n="02">Context</Code>
+          <Code n="02">Overview</Code>
           <p className="mt-5 text-[1.05rem] leading-relaxed">{s.summary}</p>
           <p className="mt-4 text-sm leading-relaxed text-mute">{s.context}</p>
         </div>
         <ol className="min-w-0 space-y-3 lg:col-span-8">
           {s.evidence.map((e, i) => (
             <li key={e.text} className="relative border border-line bg-panel p-5 pl-16">
-              <span className="absolute top-5 left-5 font-mono text-xs text-accent">E{String(i + 1).padStart(2, "0")}</span>
+              <span className="absolute top-5 left-5 font-mono text-xs text-accent">{String(i + 1).padStart(2, "0")}</span>
               <p className="text-[0.98rem] leading-relaxed">{e.text}</p>
-              <p className="mt-2 truncate font-mono text-[0.62rem] text-mute">SRC · {e.source.replace("https://", "")}</p>
             </li>
           ))}
         </ol>
@@ -158,20 +151,6 @@ export function SolutionDetailB({ solution: s }: { solution: Solution }) {
           {products.map((p) => (
             <li key={p.slug}>
               <ProductCardB product={p} className="h-full" />
-            </li>
-          ))}
-        </ul>
-      </Wrap>
-
-      <Wrap className="grid gap-8 py-16 lg:grid-cols-12">
-        <div className="lg:col-span-4">
-          <Code n="05">Reserved content slots</Code>
-          <p className="mt-4 text-sm text-mute">Filled only with official VISION HITECH information in production.</p>
-        </div>
-        <ul className="grid gap-2.5 sm:grid-cols-2 lg:col-span-8">
-          {s.pending.map((x) => (
-            <li key={x}>
-              <Placeholder className="h-full">{x}</Placeholder>
             </li>
           ))}
         </ul>
@@ -222,7 +201,6 @@ export function SupportPageB() {
                 <h2 id={`${s.id}-h`} className="text-[1.4rem] font-medium">
                   {s.title}
                 </h2>
-                {s.status !== "verified" ? <PendingTag /> : <span className="b-code text-mute">Verified</span>}
               </div>
               <p className="mt-2 text-sm text-mute">{s.body}</p>
               {s.items.length ? (
@@ -235,7 +213,9 @@ export function SupportPageB() {
                   ))}
                 </ul>
               ) : (
-                <Placeholder className="mt-5">{s.title} content will be provided by VISION HITECH.</Placeholder>
+                <InquiryButton className="mt-5 inline-flex items-center gap-3 border-t border-line pt-4 text-sm hover:text-accent">
+                  Contact our team <ArrowB />
+                </InquiryButton>
               )}
             </section>
           ))}
@@ -270,9 +250,6 @@ export function SupportPageB() {
                 RMA form (xlsx) ↓
               </a>
             </div>
-            <Placeholder compact className="mt-5">
-              {support.warranty.confirmNote}
-            </Placeholder>
           </section>
         </div>
       </Wrap>
@@ -351,7 +328,6 @@ export function CompanyPageB() {
               </Reveal>
             ))}
           </ol>
-          <p className="font-mono text-[0.65rem] text-mute md:ml-[9rem]">Entries after 2020 — awaiting official content.</p>
         </Wrap>
       </section>
 
@@ -399,7 +375,7 @@ export function CompanyPageB() {
               return (
                 <li key={s.label} className="border border-line bg-panel">
                   <div className="relative aspect-[7/4] overflow-hidden bg-panel-2">
-                    {f ? <Img src={f.image} alt={f.alt} fill sizes="25vw" className="object-cover opacity-85" /> : <span className="absolute inset-0 flex items-center justify-center font-mono text-[0.65rem] text-mute">PHOTO · TO BE CONFIRMED</span>}
+                    {f ? <Img src={f.image} alt={f.alt} fill sizes="25vw" className="object-cover opacity-85" /> : <span aria-hidden className="absolute inset-0 flex items-center justify-center"><span className="h-px w-1/3 bg-line" /></span>}
                   </div>
                   <div className="p-5">
                     <p className="font-mono text-[0.65rem] text-accent">SITE {String(i + 1).padStart(2, "0")}</p>
@@ -445,9 +421,6 @@ export function ContactPageB() {
               </div>
             ))}
           </dl>
-          <Placeholder compact className="mt-6">
-            Map embed and regional sales contacts — to be confirmed.
-          </Placeholder>
         </aside>
       </Wrap>
     </>
@@ -478,7 +451,6 @@ export function MediaPageB() {
             </li>
           ))}
         </ol>
-        <p className="mt-4 font-mono text-[0.65rem] text-mute">{media.archiveNote}</p>
       </Wrap>
       <Wrap className="grid gap-3 pb-20 sm:grid-cols-2 lg:grid-cols-4">
         {media.channels.map((c, i) => (

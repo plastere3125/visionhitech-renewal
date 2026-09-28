@@ -2,53 +2,52 @@ import { getContent } from "@/content";
 import { CLink } from "@/components/shared/CLink";
 import { Img } from "@/components/shared/Img";
 import { InquiryForm } from "@/components/shared/Inquiry";
-import { PendingTag } from "@/components/shared/Placeholder";
 import { Reveal } from "@/components/shared/Reveal";
 import { getSolution } from "@/content/en/solutions";
 import { ArrowB, Brackets, Code, HeadB, Wrap } from "../ui";
 
 export function AiB() {
-  const { homeB, solutions } = getContent();
-  const ai = solutions.find((s) => s.slug === "ai-vision")!;
+  const { homeB } = getContent();
+  const milestones = [
+    { k: "2018", v: "Server-based video analysis solution developed in-house" },
+    { k: "PTZ", v: "Intelligent object based motion detection — VNP36D5VAR" },
+    { k: "R&D", v: "Deep learning-based AI camera series in development" },
+  ];
   return (
-    <section aria-labelledby="ai-b" className="border-t border-line py-24 md:py-32">
-      <Wrap className="grid gap-12 lg:grid-cols-12">
+    <section aria-labelledby="ai-b" className="relative isolate overflow-hidden border-t border-line py-28 md:py-40">
+      <Wrap className="grid items-center gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Code n="04">{homeB.ai.label}</Code>
-          <h2 id="ai-b" className="b-display mt-5 text-[2.2rem] md:text-[3.1rem]">
+          <h2 id="ai-b" className="b-display mt-6 text-[2.4rem] md:text-[3.8rem]">
             {homeB.ai.title}
           </h2>
-          <p className="mt-6 text-[1rem] leading-relaxed text-fg/75">{homeB.ai.body}</p>
-          <ul className="mt-8 border-t border-line">
-            {ai.evidence.slice(0, 3).map((e) => (
-              <li key={e.text} className="border-b border-line py-4 text-[0.9rem] text-fg/85">
-                {e.text}
+          <p className="mt-6 max-w-md text-[1rem] leading-relaxed text-mute">{homeB.ai.body}</p>
+          <ol className="mt-10 border-t border-line">
+            {milestones.map((m) => (
+              <li key={m.k} className="grid grid-cols-[4.5rem_1fr] items-baseline gap-4 border-b border-line py-4">
+                <span className="b-code text-accent">{m.k}</span>
+                <span className="text-[0.95rem] text-fg/85">{m.v}</span>
               </li>
             ))}
-          </ul>
+          </ol>
           <CLink concept="b" href="/solutions/ai-vision/" className="group mt-8 inline-flex items-center gap-3 text-sm hover:text-accent">
-            AI Vision status <ArrowB className="transition-transform group-hover:translate-x-1" />
+            {homeB.ai.slotsTitle} <ArrowB className="transition-transform group-hover:translate-x-1" />
           </CLink>
         </div>
-        <div className="lg:col-span-6 lg:col-start-7">
-          <figure className="relative border border-line bg-panel p-2">
-            <div className="relative aspect-[4/3] overflow-hidden">
-              <Img src="/images/site/uhd-street.webp" alt="VISION HITECH 4K demonstration image of a city street" fill sizes="(min-width:1024px) 45vw, 100vw" className="object-cover" />
-              <Brackets className="m-3" color="rgba(255,255,255,.6)" />
+        <div className="lg:col-span-7">
+          <figure className="relative">
+            <div className="relative aspect-[4/3] overflow-hidden border border-line">
+              <Img src="/images/site/uhd-street.webp" alt="VISION HITECH 4K demonstration image of a city street" fill sizes="(min-width:1024px) 55vw, 100vw" className="object-cover opacity-80" />
+              <div aria-hidden className="absolute inset-0 overflow-hidden">
+                <span className="absolute inset-x-0 top-0 h-1/4 animate-[b-scan_5s_linear_infinite] bg-linear-to-b from-transparent via-accent/20 to-transparent" />
+              </div>
+              <Brackets className="m-4" color="rgba(255,255,255,.55)" />
             </div>
-            <figcaption className="px-1 pt-2 font-mono text-[0.6rem] text-mute">{homeB.ai.imageCaption}</figcaption>
+            <figcaption className="mt-3 font-mono text-[0.62rem] text-mute">{homeB.ai.imageCaption}</figcaption>
           </figure>
-          <p className="b-code mt-8 text-mute">{homeB.ai.slotsTitle}</p>
-          <ul className="mt-3 grid grid-cols-2 gap-2">
-            {homeB.ai.slots.map((s) => (
-              <li key={s} className="flex min-h-[84px] flex-col justify-between border border-dashed border-fg/20 p-3.5">
-                <span className="text-sm text-fg/80">{s}</span>
-                <PendingTag className="w-fit" />
-              </li>
-            ))}
-          </ul>
         </div>
       </Wrap>
+      <style>{`@keyframes b-scan{0%{transform:translateY(-100%)}100%{transform:translateY(400%)}}`}</style>
     </section>
   );
 }
@@ -62,7 +61,7 @@ export function ApplicationsB() {
     { img: "/images/site/corridor-hotel.webp", alt: "Hotel corridor — Corridor View example", code: "CORRIDOR VIEW", title: "Hallways", body: "Corridor View for lengthy hallways — school hallway, passenger boat, hotel." },
   ];
   return (
-    <section aria-labelledby="apps-b" className="border-t border-line py-24 md:py-32">
+    <section aria-labelledby="apps-b" className="border-t border-line py-28 md:py-40">
       <Wrap>
         <HeadB n="05" label={homeB.applications.label} title={<span id="apps-b">{homeB.applications.title}</span>} aside={<p className="max-w-sm text-sm text-mute">{vs.summary}</p>} />
         <ul className="mt-14 grid gap-3 md:grid-cols-3">
@@ -91,9 +90,9 @@ export function MobilityB() {
   const items = [getSolution("transportation")!, getSolution("vision-marine")!];
   return (
     <section aria-labelledby="mob-b" className="border-t border-line">
-      <Wrap className="pt-24 md:pt-32">
+      <Wrap className="pt-28 md:pt-40">
         <Code n="06">{homeB.mobility.label}</Code>
-        <h2 id="mob-b" className="b-display mt-5 text-[2.2rem] md:text-[3.1rem]">
+        <h2 id="mob-b" className="b-display mt-5 text-[2.2rem] md:text-[3.6rem]">
           {homeB.mobility.title}
         </h2>
       </Wrap>
@@ -103,14 +102,11 @@ export function MobilityB() {
             <Img src={s.image.src} alt={s.image.alt} fill sizes="50vw" className="-z-10 object-cover opacity-60 transition-transform duration-[1.5s] group-hover:scale-105" />
             <div className="absolute inset-0 -z-10 bg-linear-to-t from-bg via-bg/70 to-bg/20" />
             <div className="flex h-full min-h-[inherit] flex-col justify-end p-6 md:p-10">
-              <div className="flex items-center gap-3">
-                <span className="b-code text-accent">{s.index}</span>
-                <PendingTag />
-              </div>
+              <span className="b-code text-accent">{s.index}</span>
               <h3 className="b-display mt-3 text-[2.4rem] md:text-[3.2rem]">{s.name}</h3>
               <p className="mt-2 text-fg/75">{s.headline}</p>
               <ul className="mt-6 max-w-lg border-t border-fg/15">
-                {s.evidence.slice(0, 3).map((e) => (
+                {s.evidence.slice(0, 2).map((e) => (
                   <li key={e.text} className="border-b border-fg/15 py-3 text-sm text-fg/85">
                     {e.text}
                   </li>
@@ -136,7 +132,7 @@ export function SupportB() {
     { code: "RMA", title: "Warranty", items: ["27 months — cameras, NVR / DVR", "15 months — PTZ camera", "9 months — zoom module", "DOA · RMA · repair TAT"], href: "/support/#warranty" },
   ];
   return (
-    <section aria-labelledby="sup-b" className="border-t border-line py-24 md:py-32">
+    <section aria-labelledby="sup-b" className="border-t border-line py-28 md:py-40">
       <Wrap>
         <HeadB n="08" label={homeB.support.label} title={<span id="sup-b">{homeB.support.title}</span>} />
         <div className="mt-14 grid gap-px border border-line bg-line md:grid-cols-3">
@@ -161,14 +157,13 @@ export function SupportB() {
 export function MediaB() {
   const { homeB, media } = getContent();
   return (
-    <section aria-labelledby="media-b" className="border-t border-line py-24 md:py-32">
+    <section aria-labelledby="media-b" className="border-t border-line py-28 md:py-40">
       <Wrap className="grid gap-10 lg:grid-cols-12">
         <div className="lg:col-span-4">
           <Code n="09">{homeB.media.label}</Code>
-          <h2 id="media-b" className="b-display mt-5 text-[2.2rem] md:text-[3.1rem]">
+          <h2 id="media-b" className="b-display mt-5 text-[2.2rem] md:text-[3.6rem]">
             {homeB.media.title}
           </h2>
-          <p className="mt-5 text-xs text-mute">{media.archiveNote}</p>
           <CLink concept="b" href="/media/" className="group mt-6 inline-flex items-center gap-3 text-sm hover:text-accent">
             Media Center <ArrowB />
           </CLink>
@@ -198,11 +193,11 @@ export function MediaB() {
 export function ContactB() {
   const { homeB, site } = getContent();
   return (
-    <section id="contact" aria-labelledby="contact-b" className="relative border-t border-line bg-panel py-24 md:py-32">
+    <section id="contact" aria-labelledby="contact-b" className="relative border-t border-line bg-panel py-28 md:py-40">
       <Wrap className="grid gap-12 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <Code n="10">{homeB.contact.label}</Code>
-          <h2 id="contact-b" className="b-display mt-5 text-[2.2rem] md:text-[3.1rem]">
+          <h2 id="contact-b" className="b-display mt-5 text-[2.2rem] md:text-[3.6rem]">
             {homeB.contact.title}
           </h2>
           <p className="mt-5 text-sm text-mute">{homeB.contact.body}</p>

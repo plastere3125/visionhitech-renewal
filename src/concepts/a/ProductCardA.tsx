@@ -32,7 +32,7 @@ export function ProductCardA({ product, className, priority }: { product: Catalo
           </CLink>
         </h3>
         <p className="mt-1.5 line-clamp-2 text-[0.84rem] leading-snug text-mute">{productLine(product)}</p>
-        <div className="relative z-10 mt-auto flex items-center gap-4 pt-4 text-[0.78rem] font-semibold">
+        <div className="relative z-10 mt-auto flex flex-wrap items-center gap-x-4 gap-y-1.5 pt-4 text-[0.78rem] font-semibold [&>*]:whitespace-nowrap">
           <CLink concept="a" href={`/products/${product.slug}/`} className="inline-flex items-center gap-1.5 hover:text-accent-ink">
             {site.ui.viewProduct} <Arrow />
           </CLink>

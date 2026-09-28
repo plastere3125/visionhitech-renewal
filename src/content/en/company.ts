@@ -13,7 +13,7 @@ export const company = {
   },
 
   mission:
-    "Visionhitech, as a global leading company in the development of Video image technologies with its spirit of challenge that developed and popularized globally the world's first high-definition camera decades ago, is committed to keep its dedication in the development of leading security technologies and contribute to the technological advancement of the global security industry and ultimately improve the happiness of mankind.",
+    "Visionhitech is committed to developing security technologies that contribute to the advancement of the global security industry and, ultimately, the happiness of mankind.",
 
   vision: ["Reliable high quality product manufacturer", "Global Security industry Leader", "Win-Win Creator with partners", "On-Demand Employer"],
 
@@ -55,8 +55,8 @@ export const company = {
     {
       year: "2018",
       items: [
-        "Launched the world's first engine room Camera",
-        "Achieved S/W official certificate as first company in Korea",
+        "Launched an engine room Camera",
+        "Achieved S/W official certificate",
         "Acquired official TTA (Korea Telecommunication Technology Association)",
         "Started supplying Cameras & Solution to Incheon International Airport",
         "Launched 4K IP Cameras",
@@ -79,7 +79,7 @@ export const company = {
     { year: "2004", items: ["“KT mark” award for Excellent Korean Technology", "Certified “Sincere Tax-payer Prize”", "Awarded the prize by the president for “10 Million dollar Export”"] },
     { year: "2003", items: ["Established “Visionhitech technology R&D Center”", "Developed “True Day & Night Camera”", "Awarded the Prize by the administrator of small and medium industry"] },
     { year: "2002", items: ["Designated Enterprise of MSE (Skilled Industry Personnel)", "Certified ISO 9001/2000 Quality Management System", "Certified “Enterprise of Superior Technology”", "Certified “INNO-BIZ” – Enterprise of innovative technology (SMBA)"] },
-    { year: "2001", items: ["Patented world first “C/CS mount Variable Apparatus”", "Certified “Promising Enterprise” and “Venture Enterprise”"] },
+    { year: "2001", items: ["Patented “C/CS mount Variable Apparatus”", "Certified “Promising Enterprise” and “Venture Enterprise”"] },
     { year: "2000", items: ["Renamed as “Visionhitech Co., Ltd.”"] },
     { year: "1997", items: ["Established “Realtech”"] },
   ],
@@ -102,5 +102,5 @@ export const company = {
     { name: "Fourth Factory", image: "/images/site/factory-4.webp", alt: "VISION HITECH fourth factory, Bucheon" },
   ],
 
-  organizationPending: "Organization chart — awaiting official content (current site provides an image only).",
+  organizationPending: "Organization chart",
 };

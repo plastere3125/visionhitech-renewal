@@ -46,7 +46,7 @@ export default function ConceptIndex() {
           Design Concepts
         </h1>
         <p className="mt-6 max-w-xl text-[#5f646c]">
-          Two English design directions for review. Both use the same verified VISION HITECH content, product data and navigation — the design system, composition and interaction differ.
+          Two English design directions for review. Both share the same VISION HITECH content, products and navigation — the design system, composition and interaction differ.
         </p>
       </section>
       <section className="mx-auto grid max-w-[1440px] gap-4 px-5 pb-20 md:grid-cols-2 md:px-10">
@@ -83,7 +83,7 @@ export default function ConceptIndex() {
         })}
       </section>
       <footer className="mx-auto max-w-[1440px] border-t border-[#e3e4e6] px-5 py-6 text-xs text-[#5f646c] md:px-10">
-        Prototype for VISION HITECH design review. Content sourced from visionhitechsecurity.com. Not the official VISION HITECH website. Japanese site: planned after English approval.
+        VISION HITECH website renewal · English design concepts · Japanese site to follow.
       </footer>
     </main>
   );

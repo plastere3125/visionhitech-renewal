@@ -29,7 +29,7 @@ export function HeadB({ n, label, title, aside, className }: { n?: string; label
     <div className={cn("flex flex-col gap-6 md:flex-row md:items-end md:justify-between", className)}>
       <div>
         <Code n={n}>{label}</Code>
-        <h2 className="b-display mt-5 max-w-[20ch] text-[2.1rem] md:text-[3.1rem]">{title}</h2>
+        <h2 className="b-display mt-6 max-w-[18ch] text-[2.3rem] md:text-[3.6rem] xl:text-[4rem]">{title}</h2>
       </div>
       {aside}
     </div>

@@ -19,12 +19,14 @@ export function SectionHead({
   label,
   title,
   aside,
+  lead,
   className,
   as: H = "h2",
 }: {
   label: string;
   title: ReactNode;
   aside?: ReactNode;
+  lead?: ReactNode;
   className?: string;
   as?: "h1" | "h2";
 }) {
@@ -35,7 +37,8 @@ export function SectionHead({
           <span aria-hidden className="h-px w-8 bg-accent" />
           {label}
         </p>
-        <H className="a-display mt-5 max-w-[18ch] text-[2.25rem] md:text-[3.4rem]">{title}</H>
+        <H className="a-display mt-6 max-w-[16ch] text-[2.5rem] md:text-[3.9rem] xl:text-[4.4rem]">{title}</H>
+        {lead && <p className="mt-6 max-w-md text-[1rem] leading-relaxed text-mute">{lead}</p>}
       </div>
       {aside}
     </div>
