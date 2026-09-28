@@ -12,10 +12,10 @@ import { btnGhost, btnPrimary } from "../ui";
 
 /** Callout anchor points (percent of the studio panel) — product sits centred. */
 const ANCHORS = [
-  { x: 6, y: 16, align: "left" },
-  { x: 94, y: 22, align: "right" },
-  { x: 6, y: 78, align: "left" },
-  { x: 94, y: 82, align: "right" },
+  { x: 5, y: 14, align: "left" },
+  { x: 95, y: 20, align: "right" },
+  { x: 5, y: 70, align: "left" },
+  { x: 95, y: 74, align: "right" },
 ] as const;
 
 export function HeroA() {
@@ -89,7 +89,7 @@ export function HeroA() {
                 return (
                   <li
                     key={`${product.slug}-${c}`}
-                    className="absolute animate-[heroin_.7s_ease_both] text-[0.82rem] font-medium"
+                    className="absolute animate-[heroin_.7s_ease_both] text-[0.82rem] font-medium whitespace-nowrap"
                     style={{ left: `${a.x}%`, top: `${a.y}%`, translate: a.align === "right" ? "-100% 0" : undefined, animationDelay: `${150 + i * 90}ms` }}
                   >
                     <span className={cn("flex items-center gap-2", a.align === "right" && "flex-row-reverse")}>

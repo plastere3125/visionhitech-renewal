@@ -39,7 +39,7 @@ PDF와 브리핑의 IA 일치(5개 대메뉴 / 31개 하위). 기존 사이트 �
 | Vision Marine | 전용 페이지 없음. 근거: "세계 최초 엔진룸 카메라"(2018, 회사 주장), IP69K/IP68/선박 진동 시험 |
 | Security Policy · FAQ · Tech Support · Event · Newsletter · Youtube · LinkedIn · Organization | 콘텐츠 없음 → Placeholder |
 | 최신 회사 수치 | 직원 150 / 자본금 / 매출 $50M 표기 있으나 연도 불명 → **사용 안 함** |
-| 불일치 | 대표번호(7800/7811), 보증기간(24개월 vs 27개월 표), USRC 절감률(80% vs 70%), 모델코드 표기 4건 → 클라이언트 확인 필요 |
+| 불일치 | 대표번호(7800/7811), 보증기간(24개월 vs 27개월 표), USRC 절감률(80% vs 70%), 제품 표기 불일치 6건(모델코드·렌즈·설치환경) → 클라이언트 확인 필요 |
 
 ## [05] Milesight 적용 포인트
 중요도에 따른 **이종 비율 Bento**, 카드 안에 실제 제품 노출, Products → Use case → Proof → Contact 흐름, 히어로 하단 제품 탭, 탭형 솔루션 탐색기. (통계 밴드·고객사례·IoT 범위는 미적용)
