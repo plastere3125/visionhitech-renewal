@@ -1,0 +1,5564 @@
+[
+ {
+  "slug": "vni10c51a-f",
+  "model": "VNI10C51A-F",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (Color-Night, 3.6mm)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "COLOR-NIGHT",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm wide angle",
+   "WDR (120㏈)",
+   "12VDC/ I EEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI10C51A-F is a special COLOR-NIGHT, 2MP Full HD Indoor Dome that can see through near-zero darkness without IR radiation. The extraordinary performance of taking colorful video at extreme darkness gives a lot of unimaginable technical benefits before."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Color-Night, Ultra-smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm wide angle",
+    "Motion Detection",
+    "Tool-free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "WDR (120dB)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Color-Night technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni10c51a-f.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/04/VNI10C51A-F-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni10c51a-f/",
+  "notes": []
+ },
+ {
+  "slug": "vni10c51ar",
+  "model": "VNI10C51AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (Ultra STARLUX, 3.6mm)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Ultra-STARLUX",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm/2.8mm wide angle",
+   "WDR (120㏈)",
+   "30M Smart IR",
+   "12VDC/ I EEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI10C51AR is a 2MP Full HD Ultra STARLUX Indoor Dome camera that comes with a lot of unique and superb user-friendly features built in. The compact and light weight design with 2.8mm, 3.6mm wide angle lens fits best for indoor ceiling mount with a good coverage of the space by one camera."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s exceptional image tuning technology, a low-light lens, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm/2.8mm wide angle",
+    "Motion Detection",
+    "Tool-free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Ultra-STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni10c51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/04/VNI10C51AR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni10c51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vni10e51ar",
+  "model": "VNI10E51AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (3.6mm)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Cost-effective, feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm/2.8mm wide angle",
+   "WDR (120㏈)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ I EEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI10E51AR is a 2MP Full HD Indoor Dome camera designed as cost effective but with a lot of unique and superb user-friendly features built in. The compact and light weight design with 2.8mm,3.6mm wide angle lens fits best for indoor ceiling mount with a good coverage of the space by one camera."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm/2.8mm wide angle",
+    "Motion Detection",
+    "Tool-free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Ultra-Smart Rate Control",
+    "STARLUX",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni10e51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNI10E51AR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni10e51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vni151c54ar",
+  "model": "VNI15C54AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Mini-Dome IP camera No more IR glares by Scratches, Stains, Raindrops, Dusts!",
+  "subtitle": "2MP Indoor Mini-Dome IP camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Ultra STARLUX",
+   "Perfect Anti-IR Reflection",
+   "Smart H.265/H.264",
+   "Long-range Smart IR",
+   "2.7~12mm Motorized Varifocal",
+   "Ultra-Smart Rate Control",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNI15C54AR is a 2MP Full HD Ultra STARLUX Indoor Dome camera that comes with a lot of unique and superb user-friendly features."
+   },
+   {
+    "p": "With the 5x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the site."
+   },
+   {
+    "p": "It is combined with multiple core technologies such as Visionhitech’s exceptional image tuning technology, a low-light lens, Smart IR, True DN, Ultra-smart rate control, Advanced ROI to ensure the consistent and ultra-clear image quality for day and super bright color images at nighttime (Ultra STARLUX), offering noiseless crystal-clear video quality for day and night and 24/7."
+   },
+   {
+    "p": "The ultra-smart video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The Anti-IR reflective technology completely solves problems of the camera going blurry at an emergency by the IR light reflection against scratches, dusts, snows or raindrops, Bugs etc. It also maintains a crystal-clear non-reflective image quality even after the cleaning of the dome bubble."
+   },
+   {
+    "p": "With all these high-profile features, the VNI15C54AR has professional protection technologies incorporated to withstand against extremely high or low temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized V/F zoom",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Ultra Starlux",
+    "Perfect Anti-IR Reflection",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni151c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/01/VNI151C54AR.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni151c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnf70e51a",
+  "model": "VNI70E51A",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (2.9mm)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera",
+  "tier": "Stylish and compact",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "2.9mm wide angle",
+   "Compact vandal proof",
+   "STARLUX",
+   "WDR (120㏈)",
+   "12VDC/ 24VDC"
+  ],
+  "overview": [
+   {
+    "p": "VNI70E51A is a 2MP Full HD Compact Mini-Vandal Dome camera designed cost effective and with a lot of unique and superb user-friendly features built-in."
+   },
+   {
+    "p": "The compact and stylish anti-vandal design with 2.9mm wide angle lens fits best for transportation like in buses, trains or interior environments like in elevator."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.9mm wide angle",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ 24VDC",
+    "WDR (120dB)",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnf70e51a.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/08/VNF70E51A.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnf70e51a/",
+  "notes": []
+ },
+ {
+  "slug": "vni80c54ar",
+  "model": "VNI80C54AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Ultra-STARLUX",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "WDR (120㏈)",
+   "Ultra-STARLUX",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI80C54R is a 2MP Ultra-STARLUX Full HD Indoor Dome camera that comes with a lot of unique and superb user-friendly features incorporated."
+   },
+   {
+    "p": "Built-in 4x Varifocal motorized lens and Visionhitech’s smart autofocus & zoom control technology drives the camera to automatically analyze and set the ultrafine focal point by one click zoom control remotely from the security center. It is eliminating the big hassle of the focus setting hard work at the installation site."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s exceptional image tuning technology, a low-light lens, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The VNI80C54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Ultra-STARLUX",
+    "Quick & Precise Autofocus & Zoom",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni80c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/05/VNI80C54AR-thum-1.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni80c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vni80e51ar",
+  "model": "VNI80E51AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (3.6mm)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Cost-effective, feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm/2.8mm wide angle",
+   "WDR (120㏈)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ I EEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI80E51AR is a 2MP Full HD Indoor Dome camera designed as cost effective but with a lot of unique and superb user-friendly features built in. The compact and light weight design with 2.8mm, 3.6mm wide angle lens fits best for indoor ceiling mount with a good coverage of the space by one camera."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm/2.8mm wide angle",
+    "Motion Detection",
+    "Tool-free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Ultra-Smart Rate Control",
+    "STARLUX",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni80e51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/05/VNI80E51AR-thum-1.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni80e51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vni80e54ar",
+  "model": "VNI80E54AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (2.7~12mm Motorized)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Cost-effective, feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "WDR (120㏈)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ I EEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNI80E54R is a 2MP Full HD Indoor Dome camera designed as cost effective but with a lot of unique and superb user-friendly features incorporated. Built-in 4x Varifocal motorized lens and Visionhitech’s smart autofocus & zoom control technology drives the camera to automatically analyze and set the ultrafine focal point by one click zoom control remotely from the security center. It is eliminating the big hassle of the focus setting hard work at the installation site."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The VNI80E54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-free 3-Axis",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Quick & Precise Autofocus & Zoom",
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vni80e54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/05/VNI80E54AR-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vni80e54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn10c51a-f",
+  "model": "VNN10C51A-F",
+  "modelVariant": null,
+  "title": "2MP Mini-Bullet IP camera (Color-Night, 3.6mm)",
+  "subtitle": "2MP Mini-Bullet IP camera",
+  "tier": "Color-Night",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm wide angle",
+   "WDR (120㏈)",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN10C51A-F is a special COLOR-NIGHT, 2MP Full HD Mini-bullet camera designed cost effective but can see through near-zero darkness without IR radiation. The extraordinary performance of taking colorful video at extreme darkness gives a lot of unimaginable technical benefits before."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Color-Night, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night and 24/7."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm wide angle",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandalproof",
+    "ONVIF Conformant, Profile-S",
+    "WDR (120dB)",
+    "Low-latency video to any device",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Color-Night technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn10c51a-f.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNN10E51AR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn10c51a-f/",
+  "notes": []
+ },
+ {
+  "slug": "vnn10e51ar",
+  "model": "VNN10E51AR",
+  "modelVariant": null,
+  "title": "2MP Mini-Bullet IP camera (3.6mm)",
+  "subtitle": "2MP Mini-Bullet IP camera",
+  "tier": "Cost-effective,feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm wide angle",
+   "WDR (120㏈)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN10E51AR is a 2MP Full HD Mini-bullet camera designed as cost effective but with a lot of unique and superb user-friendly features built-in."
+   },
+   {
+    "p": "The compact and light weight design with 3.6mm wide angle lens fits best for discreet outdoor environment with a good coverage of the surveillance."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra-smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night and 24/7."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm wide angle",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandalproof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn10e51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNN10E51AR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn10e51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn32e54ar",
+  "model": "VNN32E54AR",
+  "modelVariant": null,
+  "title": "2MP Outdoor Mini-Bullet IP Camera (2.7~12mm Motorized)",
+  "subtitle": "2MP Outdoor Mini-Bullet IP Camera",
+  "tier": "Cost effect, feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "WDR (120㏈)",
+   "STARLUX",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN32E54AR is a 2MP Full HD Mini-bullet camera that comes with a lot of unique and superb user-friendly features."
+   },
+   {
+    "p": "Built-in 4x Varifocal motorized lens and Visionhitech’s smart autofocus & zoom control technology drives the camera to automatically analyze and set the ultrafine focal point by one click zoom control remotely from the security center. It is eliminating the big hassle of the focus setting hard work at the installation site."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "VNN32E54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)"
+   ],
+   "special": [
+    "Quick & Precise Auto-focus and Zoom",
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn32e54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNN32E54AR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn32e54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn63c54ar",
+  "model": "VNN63C54AR",
+  "modelVariant": null,
+  "title": "2MP Outdoor Bullet IP Camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart Codec",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN63C54AR is a 2MP Full HD Outdoor Bullet camera that comes with a lot of unique and superb user-friendly features. With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNN63C54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart Codec",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Enhanced Heat Dissipation",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn63c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN63C54AR-main-1.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn63c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn63c57ar",
+  "model": "VNN63C57AR",
+  "modelVariant": null,
+  "title": "Full HD 2MP Outdoor Bullet IP Camera (Ultra STARLUX, 5~50mm Motorized)",
+  "subtitle": "2MP Night Vision Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart Codec",
+   "5~50mm Motorized (10xZoom)",
+   "WDR (120㏈)",
+   "80M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN63C57AR is a 2MP Full HD Outdoor Bullet Camera with a 10x motorized zoom lens built-in. It’s suitably applicable for viewing long distances."
+   },
+   {
+    "p": "It can zoom in a license plate number or human face at 50M away day and night. Combined with Visionhitech’s smart autofocus & zoom control technology, the camera automatically finds and sets the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces a perfectly focused image all the time, eliminating the big hassle of the focus setting hard work."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNN63C57AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart Codec",
+    "5~50mm Motorized",
+    "Motion Detection",
+    "IP67 Waterproof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Long distance close-up w/10 x motorized zoom",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn63c57ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN63C57AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn63c57ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn64c54ar",
+  "model": "VNN64C54AR",
+  "modelVariant": null,
+  "title": "2MP Outdoor Bullet IP Camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN64C54AR is a 2MP Full HD Outdoor Bullet camera that comes with a lot of unique and superb user-friendly features. With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNN64C54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Enhanced Heat Dissipation",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn64c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn64c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn64c57ar",
+  "model": "VNN64C57AR",
+  "modelVariant": null,
+  "title": "Full HD 2MP Outdoor Bullet IP Camera (Ultra STARLUX, 5~50mm Motorized)",
+  "subtitle": "Full HD 2MP Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "5~50mm Motorized (10xZoom)",
+   "WDR (120㏈)",
+   "80M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN64C57AR is a 2MP Full HD Outdoor Bullet Camera with a 10x motorized zoom lens built-in. It’s suitably applicable for viewing long distances."
+   },
+   {
+    "p": "It can zoom in a license plate number or human face at 50M away day and night. Combined with Visionhitech’s smart autofocus & zoom control technology, the camera automatically finds and sets the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces a perfectly focused image all the time, eliminating the big hassle of the focus setting hard work."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNN64C57AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "5~50mm Motorized",
+    "Motion Detection",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Long distance close-up w/10 x motorized zoom",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn64c57ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn64c57ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnp36d5var",
+  "model": "VNP36D5VAR",
+  "modelVariant": null,
+  "title": "2MP IP IR PTZ camera (Ultra STARLUX, 36x)",
+  "subtitle": "2MP IP IR PTZ camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "PTZ",
+  "environment": null,
+  "highlights": [
+   "Full HD Ultra StarLux 36 x IP PTZ camera",
+   "2MP Full HD 1/2″ SONY STARVIS CMOS",
+   "6~216mm Optical x36 AF Zoom/F1.5",
+   "Nighttime visible IR Distance of up to 300M long",
+   "All real-time Triple Streaming",
+   "Intelligent Object based Motion Detection",
+   "Supports WDR, Defog, 2D+3DNR",
+   "Smart IR",
+   "X32 Digital Zoom",
+   "IP66 Waterproof",
+   "AC24V/ 2.5A",
+   "ONVIF (Profile-S)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [
+    "Full HD Ultra StarLux 36 x IP PTZ camera",
+    "2MP Full HD 1/2″ SONY STARVIS CMOS",
+    "6~216mm Optical x36 True AF Zoom Lens/F1.5",
+    "Nighttime visible IR Distance of up to 300M long",
+    "All real-time Triple Streaming",
+    "Advanced Smart-Focus",
+    "Intelligent Object based Motion Detection",
+    "ONVIF Conformant, Profile-S",
+    "Supports WDR, Defog, 2D+3DNR",
+    "Ultra STARLUX",
+    "X32 Digital Zoom",
+    "IP66 Waterproof",
+    "AC24V/ 2.5A",
+    "ONVIF (Profile-S)"
+   ],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnp36d5var.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNP36D5VAR-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnp36d5var/",
+  "notes": []
+ },
+ {
+  "slug": "vnv13c54ar",
+  "model": "VNV13C54AR",
+  "modelVariant": null,
+  "title": "2MP Night Vision Outdoor Vandal Dome IP Camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "ULTRA-STARLUX",
+   "Smart Codec",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV13C54AR is a 2MP Full HD Vandal-proof Dome camera with a 4x Varifocal motorized lens."
+   },
+   {
+    "p": "The highlighted smart autofocus & zoom control technology makes the camera automatically finds and sets the ultrafine focal point with one click zoom control remotely from the security center, eliminating the big hassle of the focus setting hard work at the site."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX), offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNV13C54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart Codec",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra Starlux",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv13c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV13C54AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv13c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv23c54ar",
+  "model": "VNV23C54AR",
+  "modelVariant": null,
+  "title": "2MP Indoor Dome IP camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Indoor Dome IP camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "ULTRA-STARLUX",
+   "Smart H.265/H.264",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV23C54AR is a 2MP Full HD Vandal-proof Dome camera with a 4x Varifocal motorized lens."
+   },
+   {
+    "p": "The highlighted smart autofocus & zoom control technology makes the camera automatically finds and sets the ultrafine focal point with one click zoom control remotely from the security center, eliminating the big hassle of the focus setting hard work at the site."
+   },
+   {
+    "p": "Combined with Visionhitech’s exceptional image tuning technology, a Super low light sensor, and a low-light lens, the camera produces super bright color images at nighttime (Ultra STARLUX), offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The camera reinforced its network streaming technology far higher than conventional products with which users can experience unprecedented network efficiencies such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%. It offers a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   },
+   {
+    "p": "In the hardware aspect, the camera adopts a lot of user-friendly smart features such as Smart Focus, Smart IR, Smart Health checking that offers high efficiencies in installation, running monitoring center, and maintenance management."
+   },
+   {
+    "p": "The VNV23C54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra Starlux",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Smart Network status indication",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv23c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VNV23C54AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv23c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv80c51a-f",
+  "model": "VNV80C51A-F",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (Color-Night, 3.6mm)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera",
+  "tier": "Color-Night",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "H.265/H.264",
+   "3.6mm wide angle",
+   "WDR (120㏈)",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV80C51A-F is a special COLOR-NIGHT, 2MP Full HD Vandal-proof Mini-Dome camera that can see through near-zero darkness without IR radiation. The extraordinary performance of taking colorful video at extreme darkness gives a lot of unimaginable technical benefits before."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Color-Night, Ultra-smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "3.6mm wide angle",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "WDR (120dB)",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "Color-Night technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv80c51a-f.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNV80C51AR-F-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv80c51a-f/",
+  "notes": []
+ },
+ {
+  "slug": "vnv80c51ar",
+  "model": "VNV80C51AR",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (Ultra STARLUX, 3.6mm)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera",
+  "tier": "Ultra STARLUX",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "2.8mm wide angle",
+   "WDR (120㏈)",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV80C51AR is a 2MP Full HD Ultra STARLUX Vandalproof Dome camera with a lot of unique and superb user-friendly features built in."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s exceptional image tuning technology, a low-light lens, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The VNV80C51AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.8mm wide angle",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv80c51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNV80C51AR-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv80c51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv80c54ar",
+  "model": "VNV80C54AR",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (Ultra STARLUX, 2.7~12mm Motorized)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera",
+  "tier": "Ultra-STARLUX",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "WDR (120㏈)",
+   "Ultra-STARLUX",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV80C54R is a 2MP Full HD Ultra-STARLUX Vandal-proof Dome camera that comes with a lot of unique and superb user-friendly features incorporated."
+   },
+   {
+    "p": "Built-in 4x Varifocal motorized lens and Visionhitech’s smart autofocus & zoom control technology drives the camera to automatically analyze and set the ultrafine focal point by one click zoom control remotely from the security center. It is eliminating the big hassle of the focus setting hard work at the installation site."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s exceptional image tuning technology, a low-light lens, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and super bright color images at nighttime (Ultra STARLUX)"
+   },
+   {
+    "p": ", offering noiseless crystal-clear video quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandalproof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra-STARLUX",
+    "Quick & Precise Autofocus & Zoom",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv80c54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNV80E54AR-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv80c54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv80e51ar",
+  "model": "VNV80E51AR",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (3.6mm)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera (3.6mm)",
+  "tier": "Cost-effective,feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "2.8mm wide angle",
+   "WDR (120㏈)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV80E51AR is a 2MP Full HD Vandalproof Dome camera designed as cost effective but with a lot of unique and superb user-friendly features built-in."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night and 24/7."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The VNV80E51AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.8mm wide angle",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandalproof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Ultra-Smart Rate Control",
+    "STARLUX",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv80e51ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNV80E51AR-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv80e51ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv80e54ar",
+  "model": "VNV80E54AR",
+  "modelVariant": null,
+  "title": "2MP Mini-Vandal Dome IP camera (2.7~12mm Motorized)",
+  "subtitle": "2MP Mini-Vandal Dome IP camera",
+  "tier": "Cost-effective,feature-rich",
+  "category": "ip-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized Zoom Lens",
+   "WDR (120dB)",
+   "STARLUX",
+   "30M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV80E54AR is a 2MP Full HD Vandal proof Dome camera designed as cost effective but with a lot of unique and superb user-friendly features incorporated."
+   },
+   {
+    "p": "Built-in 4x Varifocal motorized lens and Visionhitech’s smart autofocus & zoom control technology drives the camera to automatically analyze and set the ultrafine focal point by one click zoom control remotely from the security center. It is eliminating the big hassle of the focus setting hard work at the installation site."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The VNV80E54AR possesses all necessary professional protection technologies to withstand high temperatures and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "1920(H) x 1080(V) 2MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandalproof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Quick & Precise Autofocus & Zoom",
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv80e54ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/06/VNV80E54AR-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv80e54ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn631u4ar",
+  "model": "VNN631U4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Bullet IP Camera (Ultra STARLUX, 2.7~13.5mm Motorized)",
+  "subtitle": "Ultra HD 4K Outdoor Bullet MFZ IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "2.7 ~ 13.5mm Motorized (5xZoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN63LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "The VNN63LU4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNN63LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized zoom",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn631u4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN631U4AR-main-1.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn631u4ar/",
+  "notes": [
+   "Model code differs on product page: store name 'VNN631U4AR' vs page headline 'VNN631LU4AR'."
+  ]
+ },
+ {
+  "slug": "vnn63lu4ar",
+  "model": "VNN63LU4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Bullet IP Camera (Ultra STARLUX, 2.7~13.5mm Motorized)",
+  "subtitle": "Ultra HD 4K Outdoor Bullet MFZ IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "2.7 ~ 13.5mm Motorized (5xZoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN63LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "The VNN63LU4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNN64LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized zoom",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn63lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN63LU4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn63lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn641u4ar",
+  "model": "VNN641U4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Bullet IP Camera (Ultra STARLUX, 3.6~11mm Motorized)",
+  "subtitle": "4K Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "3.6 ~ 11mm Motorized (3xZoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN641U4AR features UHD 4K resolution which is 4 times higher than that of 2-megapixel camera. With this feature, every part of small details in the captured video can be magnified without losing its clarity, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can cover much wider range of surveillance and replace the needs of multiple numbers of conventional cameras. The VNN641U4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNN641U4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "3.6~11mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn641u4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn641u4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn64lu4ar",
+  "model": "VNN64LU4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Bullet IP Camera (Ultra STARLUX, 2.7~13.5mm Motorized)",
+  "subtitle": "Ultra HD 4K Outdoor Bullet MFZ IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.264/H.265",
+   "2.7 ~ 13.5mm Motorized Varifocal Lens (5xZoom)",
+   "WDR (120dB)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNN64LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "The VNN64LU4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNN64LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.264/H.265",
+    "2.7~13.5mm Motorized Varifocal zoom",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn64lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn64lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv131u4ar",
+  "model": "VNV131U4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Vandal Dome IP Camera (Ultra STARLUX, 3.6~11mm Motorized)",
+  "subtitle": "UHD 4K Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "3.6 ~ 11mm Motorized (3x Zoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV131U4AR features UHD 4K resolution which is 4 times higher than that of 2-megapixel camera. With this feature, every part of small details in the captured video can be magnified without losing its clarity, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can cover much wider range of surveillance and replace the needs of multiple numbers of conventional cameras. The VNV231U4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all of these high-profile features, the VNV131U4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "3.6~11mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv131u4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV131U4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv131u4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv13lu4ar",
+  "model": "VNV13LU4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Vandal Dome IP Camera (Ultra STARLUX, 2.7~13.5mm Motorized)",
+  "subtitle": "Ultra HD 4K Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "2.7 ~ 13.5mm Motorized (5xZoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV13LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "The VNV13LU4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNV64LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized zoom",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Enhanced Heat Dissipation",
+    "Quick & Precise Auto-focus and Zoom",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv13lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV13LU4AR-main-1.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv13lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv15lu4ar",
+  "model": "VNV15LU4AR",
+  "modelVariant": null,
+  "title": "Ultra HD 4K Outdoor Dome IP Camera No more IR glares by scratches, dust, raindrops!",
+  "subtitle": "Ultra HD 4K Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Perfect Anti-IR Reflection",
+   "Ultra STARLUX (Super low light)",
+   "Smart H.265/H.264",
+   "Long-range Smart IR",
+   "2.7~13.5mm Motorized Varifocal",
+   "Ultra-Smart Rate Control",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNV151U4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "It’s embedded with highly enhanced smart streaming technology reduces the size of data bandwidth by smaller than 20% compared with conventional streaming solutions."
+   },
+   {
+    "p": "The Anti-IR reflective dome bubble clearly solves chronical problems of the IR night-time image going blurry by the IR light reflection against scratches, dusts, snows or raindrops."
+   },
+   {
+    "p": "With all these high-profile features, the VNV151U4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Perfect Anti-IR Reflection",
+    "Ultra Starlux",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv15lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV15LU4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv15lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv231u4ar",
+  "model": "VNV231U4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Vandal Dome IP Camera (Ultra STARLUX, 3.6~11mm Motorized)",
+  "subtitle": "UHD 4K Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "3.6 ~ 11mm Motorized (3x Zoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV231U4AR features UHD 4K resolution which is 4 times higher than that of 2-megapixel camera. With this feature, every part of small details in the captured video can be magnified without losing its clarity, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can cover much wider range of surveillance and replace the needs of multiple numbers of conventional cameras. The VNV231U4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all of these high-profile features, the VNV231U4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "3.6~11mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Long-range, low heat Hi-power IR"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv231u4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV231U4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv231u4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv23lu4ar",
+  "model": "VNV23LU4AR",
+  "modelVariant": null,
+  "title": "UHD 4K Outdoor Vandal Dome IP Camera (Ultra STARLUX, 2.7~13.5mm Motorized)",
+  "subtitle": "UHD 4K Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Smart H.265/H.264",
+   "2.7 ~ 13.5mm Motorized (5x Zoom)",
+   "WDR (120㏈)",
+   "50M Smart IR",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV23LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "The VNV23LU4AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNV23LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Ultra STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv23lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VNV23LU4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv23lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv25lu4ar",
+  "model": "VNV25LU4AR",
+  "modelVariant": null,
+  "title": "Ultra HD 4K Outdoor Dome IP Camera No more IR glares by scratches, dust, raindrops!",
+  "subtitle": "Ultra HD 4K Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4K",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3840 x 2160 UHD 4K IPC",
+   "Perfect Anti-IR Reflection",
+   "Ultra STARLUX (Super low light)",
+   "Smart H.265/H.264",
+   "Long-range Smart IR",
+   "2.7~13.5mm Motorized Varifocal",
+   "Ultra-Smart Rate Control",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNV25LU4AR is an Ultra High Definition (UHD) 4K IP camera with Super sensitive low light image sensor and with 2.7~13.5mm motorized Varifocal Lens that has an enlarged 5x optical zoom ratio."
+   },
+   {
+    "p": "Powered by the UHD resolution and 5x optical zoom function, the camera can magnify the long-distanced scene without losing the details of micro-sized objects, enhancing the usage of video data much more efficient and accurate. As the entire objects within the 4K image quality highly usable, one single camera can target much wider and longer range of surveillance area, replacing the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "It’s embedded with highly enhanced smart streaming technology reduces the size of data bandwidth by smaller than 20% compared with conventional streaming solutions."
+   },
+   {
+    "p": "The Anti-IR reflective dome bubble clearly solves chronical problems of the IR night-time image going blurry by the IR light reflection against scratches, dusts, snows or raindrops."
+   },
+   {
+    "p": "With all these high-profile features, the VNV25LU4AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3840 x 2160 UHD 4K IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "UHD 4K IP Camera",
+    "Perfect Anti-IR Reflection",
+    "Ultra Starlux",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv25lu4ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/05/VNV25LU4AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv25lu4ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn32f7vyr",
+  "model": "VNN32F7VYR",
+  "modelVariant": null,
+  "title": "4MP IP Bullet Full Color Camera",
+  "subtitle": "4MP Network Ultra-Low Light Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "High-sensitivity Sony STARVIS 2 CMOS Sensor",
+   "H.265, H.264, MJPEG",
+   "White LEDs, up to 45m effective range",
+   "Anti-Reflection Design",
+   "IP67-rated Weatherproof",
+   "Built-in Heater",
+   "Junction Box (Optional)",
+   "DC12V/PoE (IEEE802.3af)"
+  ],
+  "overview": [
+   {
+    "h": "24/7 Full-Color Imaging"
+   },
+   {
+    "p": "Designed as a specialized solution, this camera utilizes an ultra-low light 1/1.8″ image sensor and an F1.0 large-aperture lens to deliver full-color imagery 24/7, even in environments with light levels as low as 0.1 Lux. In conditions below 0.1 Lux, the integrated White Light LEDs activate to ensure crisp, noise-free color video with an effective illumination range of up to 45m."
+   },
+   {
+    "h": "High-Performance AF Algorithm for Fast and Precise Zoom"
+   },
+   {
+    "p": "Equipped with a dedicated zoom lens and enhanced by our proprietary high-performance AF algorithm, this camera achieves rapid zoom speeds while maintaining exceptional image clarity throughout the entire zoom transition."
+   },
+   {
+    "h": "Innovative Linkage Mechanism: Precision Zoom & LED Control"
+   },
+   {
+    "p": "By integrating software-driven fine-tuning, this camera features an innovative linkage mechanism between zoom ratios and LED intensity. This effectively eliminates common low-light issues such as halo effects and vignetting."
+   },
+   {
+    "p": "The system intelligently adjusts the LED illumination angle based on the zoom magnification and modulates brightness according to AGC levels, ensuring uniform brightness and superior image sharpness across the entire field of view."
+   }
+  ],
+  "features": {
+   "key": [
+    "Sony 1/1.8″ 4MP STARVIS 2 CMOS Sensor",
+    "Ultra-Low Light Performance",
+    "(Min. Illumination: 0.001Lux)",
+    "Full-Color Night Vision: 24/7 color monitoring",
+    "Powerful White LED",
+    "Illumination up to 45m",
+    "Wide-Angle High-Power LED",
+    "(Extended-life cycle)",
+    "Robust Front Cover",
+    "(Thermally reinforced glass prevents degradation and maintains image clarity over time)",
+    "4.8~8mm/F1.0~F1.2 x1.6 Optical Zoom",
+    "AF Lens",
+    "Triple Stream: H.265, H.264, & MJPEG",
+    "Bit Rate Control: CBR & VBR",
+    "True WDR",
+    "2D/3D DNR",
+    "Anti-Reflection Design",
+    "Motion Detection",
+    "ONVIF Profile S Compliant",
+    "IP67-rated Weatherproof",
+    "DC12V/PoE (IEEE 802.3af)"
+   ],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn32f7vyr.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/03/VNN32FVYR-main.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn32f7vyr/",
+  "notes": [
+   "Model code differs on product page: store name 'VNN32F7VYR' vs page headline 'VNN32FVYR'."
+  ]
+ },
+ {
+  "slug": "vnn63184ar",
+  "model": "VNN63184AR",
+  "modelVariant": null,
+  "title": "4MP Outdoor Bullet IP Camera",
+  "subtitle": "4MP Night Vision Outdoor Bullet IP Camera",
+  "tier": null,
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "VNV63184AR (5x)",
+   "2592(H)×1520(V) 4MP IPC",
+   "Smart H.265/H.264",
+   "2.7~13.5mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN63184AR is a 4 Mega-pixels Water resistant IP Camera with 5x Varifocal motorized lens."
+   },
+   {
+    "p": "Combined with Visionhitech’s smart auto focus & zoom control technology, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, it produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation."
+   },
+   {
+    "p": "It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and data consumption."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.265/H.264",
+    "2.7~13.5mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Perfect Anti-IR Reflection",
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn63184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN63184AR_main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn63184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn64184ar",
+  "model": "VNN64184AR",
+  "modelVariant": null,
+  "title": "4MP Outdoor Bullet IP Camera",
+  "subtitle": "4MP Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "2592(H)×1520(V) 4MP IPC",
+   "Smart H.265/H.264",
+   "2.7~13.5mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN64184AR is a 4 Mega-pixels Water resistant and Vandal-proof IP Camera with 5x Varifocal motorized lens."
+   },
+   {
+    "p": "Combined with Visionhitech’s smart auto focus & zoom control technology, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, it produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation."
+   },
+   {
+    "p": "It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and data consumption."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.264/H.265",
+    "2.7~13.5mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn64184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN64184AR_main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn64184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv13184ar",
+  "model": "VNV13184AR",
+  "modelVariant": null,
+  "title": "4MP Outdoor Dome IP Camera",
+  "subtitle": "4MP Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "2592(H)×1520(V) 4MP IPC",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN13184AR is a 4 Mega-pixels Water resistant and Vandal-proof IP Camera with 4x Varifocal motorized lens."
+   },
+   {
+    "p": "Combined with Visionhitech’s smart auto focus & zoom control technology, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, it produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation."
+   },
+   {
+    "p": "It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and data consumption."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv13184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV13184AR-main-5.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv13184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv14f7vyr",
+  "model": "VNV14F7VYR",
+  "modelVariant": null,
+  "title": "4MP IP Vandal Dome Full Color Camera",
+  "subtitle": "4MP Network Ultra-Low Light Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "High-sensitivity Sony STARVIS 2CMOS Sensor",
+   "H.265, H.264, MJPEG",
+   "White LEDs, up to 45m effective range",
+   "Anti-Reflection Design",
+   "IP67-rated Weatherproof",
+   "Built-in Heater",
+   "Junction Box (Optional)"
+  ],
+  "overview": [
+   {
+    "h": "24/7 Full-Color Imaging"
+   },
+   {
+    "p": "Designed as a specialized solution, this camera utilizes an ultra-low light 1/1.8″ image sensor and an F1.0 large-aperture lens to deliver full-color imagery 24/7, even in environments with light levels as low as 0.1 Lux. In conditions below 0.1 Lux, the integrated White Light LEDs activate to ensure crisp, noise-free color video with an effective illumination range of up to 45m."
+   },
+   {
+    "h": "High-Performance AF Algorithm for Fast and Precise Zoom"
+   },
+   {
+    "p": "Equipped with a dedicated zoom lens and enhanced by our proprietary high-performance AF algorithm, this camera achieves rapid zoom speeds while maintaining exceptional image clarity throughout the entire zoom transition."
+   },
+   {
+    "h": "Innovative Linkage Mechanism: Precision Zoom & LED Control"
+   },
+   {
+    "p": "By integrating software-driven fine-tuning, this camera features an innovative linkage mechanism between zoom ratios and LED intensity. This effectively eliminates common low-light issues such as halo effects and vignetting."
+   },
+   {
+    "p": "The system intelligently adjusts the LED illumination angle based on the zoom magnification and modulates brightness according to AGC levels, ensuring uniform brightness and superior image sharpness across the entire field of view."
+   }
+  ],
+  "features": {
+   "key": [
+    "Sony 1/1.8” 4MP STARVIS 2 CMOS Sensor",
+    "Ultra-Low Light Performance (Min. Illumination : 0.001Lux)",
+    "Full-Color Night Vision:24/7 color monitoring",
+    "Powerful White LED Illumination up to 45m",
+    "Wide-Angle High-Power LED (Extended-life cycle)",
+    "Robust Front Cover (Thermally reinforced glass prevents degradation and maintains image clarity over time)",
+    "4.8~8mm/F1.0~F1.2 x1.6 Optical Zoom AF Lens",
+    "Triple Stream : H.265, H.264, & MJPEG",
+    "Bit Rate Control : CBR & VBR",
+    "True WDR",
+    "2D/3D DNR",
+    "Anti-Reflection Design",
+    "Motion Detection",
+    "ONVIF Profile S Compliant",
+    "IP67-rated Weatherproof",
+    "DC12V/PoE (IEEE 802.3af)"
+   ],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv14f7vyr.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2026/02/VNV14F7VYR.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv14f7vyr/",
+  "notes": []
+ },
+ {
+  "slug": "vnv15184ar",
+  "model": "VNV15184AR",
+  "modelVariant": null,
+  "title": "4MP Night Vision Outdoor Vandal Dome IP Camera No more IR glares by scratches, dust, raindrops!",
+  "subtitle": "4MP Night Vision Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "2592(H)×1520(V) 4MP IPC",
+   "Perfect Anti-IR Reflection",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN25184AR is a 4 Mega-pixels Water resistant and Vandal-proof IP Dome Camera with 4x Varifocal motorized lens."
+   },
+   {
+    "p": "With Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces reducing the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The Anti-IR reflection technology completely solves the big issues of the night-time IR cameras going blurry at an emergency by the IR light reflection against scratches, dusts, snows or raindrops etc. It also maintains a crystal-clear non-reflective image quality even after the cleaning of the dome bubble."
+   },
+   {
+    "p": "With all these high-profile features, the VNN25184AR has professional protection technologies incorporated to withstand against extremely high or low temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.264/H.265",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device(ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Perfect Anti-IR Reflection",
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv15184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV15184AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv15184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv23184ar",
+  "model": "VNV23184AR",
+  "modelVariant": null,
+  "title": "4MP Night Vision Outdoor Vandal Dome IP Camera",
+  "subtitle": "4MP Night Vision Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "2592(H)×1520(V) 4MP IPC",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN23184AR is a 4 Mega-pixels Water resistant and Vandal-proof IP Camera with 4x Varifocal motorized lens."
+   },
+   {
+    "p": "Combined with Visionhitech’s smart auto focus & zoom control technology, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, it produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation."
+   },
+   {
+    "p": "It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and data consumption."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device (ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv23184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV23184AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv23184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv25184ar",
+  "model": "VNV25184AR",
+  "modelVariant": null,
+  "title": "4MP Outdoor Dome IP Camera No more IR glares by scratches, dust, raindrops!",
+  "subtitle": "4MP Night Vision Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "4MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "2592(H)×1520(V) 4MP IPC",
+   "Perfect Anti-IR Reflection",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNN25184AR is a 4 Mega-pixels Water resistant and Vandal-proof IP Dome Camera with 4x Varifocal motorized lens."
+   },
+   {
+    "p": "With Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work at the installation It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces reducing the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   },
+   {
+    "p": "The Anti-IR reflection technology completely solves the big issues of the night-time IR cameras going blurry at an emergency by the IR light reflection against scratches, dusts, snows or raindrops etc. It also maintains a crystal-clear non-reflective image quality even after the cleaning of the dome bubble."
+   },
+   {
+    "p": "With all these high-profile features, the VNN25184AR has professional protection technologies incorporated to withstand against extremely high or low temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2592(H)×1520(V) 4MP IPC",
+    "Smart H.264/H.265",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-free 3-Axis mounting",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Low-latency video to any device(ICR)",
+    "Corridor View"
+   ],
+   "special": [
+    "Perfect Anti-IR Reflection",
+    "Starlux Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv25184ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/01/VNV25184AR_thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv25184ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn63194ar",
+  "model": "VNN63194AR",
+  "modelVariant": null,
+  "title": "6MP Night Vision Outdoor Bullet IP Camera",
+  "subtitle": "6MP Night Vision Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Multi-res 6MP@20fps/ 5MP@30fps",
+   "/ 4MP@30fps",
+   "Smart H.265/H.264",
+   "Long-range Smart IR",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "50M Smart IR"
+  ],
+  "overview": [
+   {
+    "p": "VNN63194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and the consumption of data traffic."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Enhanced Heat Dissipation",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn63194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNN63194AR_main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn63194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnn64194ar",
+  "model": "VNN64194AR",
+  "modelVariant": null,
+  "title": "6MP Outdoor Bullet IP Camera",
+  "subtitle": "6MP Outdoor Bullet IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Multi-res 6MP@20fps/5MP@30fps/4MP@30fps",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "50M Smart IR"
+  ],
+  "overview": [
+   {
+    "p": "VNN64194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "The VNN64194AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNN64194AR has professional protection technologies embedded to withstand against high temperature and harsh environments. Please see below for more technical review of this camera."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "STARLUX Technology",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Enhanced Heat Dissipation",
+    "Waterproof SD-Card slot (Patented)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnn64194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnn64194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv13194ar",
+  "model": "VNV13194AR",
+  "modelVariant": null,
+  "title": "6MP Outdoor Dome MFZ IP Camera",
+  "subtitle": "6MP Night Vision Outdoor Vandal Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Multi-res 6MP@20fps/",
+   "5MP@30fps/4MP@30fps",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "50M Smart IR"
+  ],
+  "overview": [
+   {
+    "p": "VNV13194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "It supports Real WDR, Ture DN, Smart IR, Advanced ROI to safeguard a seamless high quality video capturing performance for 24/7 day and night The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and the consumption of data traffic."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv13194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV13194AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv13194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv15194ar",
+  "model": "VNV15194AR",
+  "modelVariant": null,
+  "title": "6MP Night Vision Outdoor Vandal Dome IP Camera",
+  "subtitle": "6MP Night Vision Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Perfect Anti-IR Reflection",
+   "Multi-res 6MP@20fps/ 5MP@30fps/",
+   "4MP@30fps",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNV15194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "Combined with the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, it produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "The ultra-smart video streaming technology embedded reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly decreased storage and data consumption."
+   },
+   {
+    "p": "The Anti-IR reflection technology patented clearly solves chronical problems of the IR night-time image going blurry by the IR light reflection against scratches, dusts, snows, or raindrops."
+   },
+   {
+    "p": "Above all these high-profile features, this camera is reinforced with professional protection technologies to maintain a reliable operation under the harshest environments, such as extremely high or cold temperature, shock and vibration, vandalism, abnormal electric surge etc."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv15194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV15194AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv15194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv23194ar",
+  "model": "VNV23194AR",
+  "modelVariant": null,
+  "title": "6MP Outdoor Dome IP Camera",
+  "subtitle": "6MP Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Multi-res 6MP@20fps/ 5MP@30fps/",
+   "4MP@30fps",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "50M Smart IR"
+  ],
+  "overview": [
+   {
+    "p": "VNV23194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "The VNV23194AR is armed with the excellent data streaming technology that reduces the size of transmission bandwidth to smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "With all these high-profile features, the VNV23194AR has professional protection technologies embedded to withstand against high temperature and harsh environments. Please see below for more technical review of this camera."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv23194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VNV23194AR-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv23194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv25194ar",
+  "model": "VNV25194AR",
+  "modelVariant": null,
+  "title": "6MP Outdoor Dome IP Camera No more IR glares by scratches, dust, raindrops!",
+  "subtitle": "6MP Outdoor Dome IP Camera",
+  "tier": "Professional",
+  "category": "ip-camera",
+  "series": "6MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "3096(H) x 2202(V) 6MP IPC",
+   "Perfect Anti-IR Reflection",
+   "Multi-res 6MP@20fps/ 5MP@30fps/",
+   "4MP@30fps",
+   "Smart H.265/H.264",
+   "2.7~12mm Motorized",
+   "WDR (120㏈)",
+   "Long range Smart IR",
+   "Advanced ROI"
+  ],
+  "overview": [
+   {
+    "p": "VNV25194AR features 6 Mega-pixels resolution, 3 times higher than 2-megapixel camera. The biggest advantage of this feature is that every single micro sized object captured in suspicious area that looks superficially invisible and muddy can be magnified without losing its clarity, bringing the video data much more valuable and accurate."
+   },
+   {
+    "p": "As the entire objects within the 6MP image quality highly usable, one single camera can take much wider and longer range of security coverage and replace the needs of multiple numbers of conventional cameras."
+   },
+   {
+    "p": "With the 4x Varifocal motorized lens and Visionhitech’s smart auto focus & zoom control technology combined, the camera automatically finds and set the ultrafine focal point with one click zoom control remotely at the security center. As a result, the camera produces perfectly focused image all the time, eliminating the big hassle of focus setting hard work."
+   },
+   {
+    "p": "Armed with the Ultra smart data streaming technology the size of bandwidth transmission is reduced by smaller than 20% compared with conventional streaming technology."
+   },
+   {
+    "p": "The Anti-IR reflective dome bubble clearly solves chronical problems of the IR night-time image going blurry by the IR light reflection against scratches, dusts, snows or raindrops."
+   },
+   {
+    "p": "With all these high-profile features, the VNV25194AR has professional protection technologies embedded to withstand against high temperature and harsh environments."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "3096(H) x 2202(V) 6MP IPC",
+    "Smart H.265/H.264",
+    "2.7~12mm Motorized",
+    "Triple-streaming",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile S",
+    "True Day/Night (ICR)",
+    "WDR (120dB)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "Corridor View",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps"
+   ],
+   "special": [
+    "Perfect Anti-IR Reflection",
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Quick & Precise Auto-focus and Zoom",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv25194ar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/01/VNV25184AR_thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv25194ar/",
+  "notes": []
+ },
+ {
+  "slug": "vne10452a",
+  "model": "VNE10452A",
+  "modelVariant": null,
+  "title": "Full HD 2MP Covert Fixed IP Camera",
+  "subtitle": "Full HD 2MP Covert Fixed IP Camera",
+  "tier": "Covert Specialty",
+  "category": "ip-camera",
+  "series": "Specialty",
+  "form": "Covert",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.264/H.265",
+   "3.7mm 2MP Pinhole lens",
+   "WDR (120㏈)",
+   "Micro SD-Card slot",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNE10452A is a discreet covert IP camera with a wide angle 3.7mm pinhole lens. It features 1080p Full HD resolution adopted with high performance SOC(A) and 2MP low light Sony image sensor to safeguard a top of the image quality through day and night. The sensor unit is ideally setup away from the main unit up to 4M (13ft) delivering noiseless video quality through the high frequency long cable in between."
+   },
+   {
+    "p": "The camera with a wide-angle pinhole lens can be applicable for various covert surveillances, especially for ATM where requires discreet watching and high-quality video capturing at the same time."
+   },
+   {
+    "p": "It comes with an advanced H.265 based Smart Rate Control combined with the manufacturer’s smart coding, reducing data transmission bandwidth and storage space by up to 80%."
+   },
+   {
+    "p": "Supported Real Wide Dynamic Range (120dB WDR) is one of the key features necessary to discern a human face against bright-lit background."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": [
+    "1920(H)x1080(V) 2MP IPC",
+    "Smart H.264/H.265",
+    "3.7mm 2MP Wide-angle Pinhole",
+    "Motion Detection",
+    "Two-way audio",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Starlux technology",
+    "Smart Network status indication"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vne10452a.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNE10452A-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vne10452a/",
+  "notes": []
+ },
+ {
+  "slug": "vnv201tfa",
+  "model": "VNV201TFA",
+  "modelVariant": null,
+  "title": "12MP Panoramic Vandal Dome Fixed IP Camera",
+  "subtitle": "12MP Panoramic Vandal Dome IP Camera",
+  "tier": "Network Products",
+  "category": "ip-camera",
+  "series": "Specialty",
+  "form": "Panoramic",
+  "environment": "Outdoor",
+  "highlights": [
+   "Smart H.265/H.264",
+   "Digital PTZ (Drag & Zoom)",
+   "Ultra Smart Rate Control",
+   "Advanced ROI"
+  ],
+  "overview": [],
+  "features": {
+   "key": [
+    "12.4 Megapixel 1/7″ SONY image sensor",
+    "4000(H) × 3000(V) 12MP/15fps",
+    "Fixed 1.2mm Panoramic Lens",
+    "Smart H.265/H.264",
+    "Triple Streaming of H.265, H.264, and M-JPEG",
+    "VBR/CBR/SRC in H.265/H.264",
+    "Ultra SRC (Smart Rate Control)",
+    "Digital PTZ (Drag & Drop Zoom control)",
+    "Adjustable frame rate",
+    "Real WDR (120dB)",
+    "2D+3DNR"
+   ],
+   "general": [
+    "Full HD 1080",
+    "3-Axis",
+    "Poe",
+    "DNR",
+    "Defog",
+    "WDR"
+   ],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv201tfa.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNV201TFA-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv201tfa/",
+  "notes": []
+ },
+ {
+  "slug": "vnv201tfar",
+  "model": "VNV201TFAR",
+  "modelVariant": null,
+  "title": "12MP Panoramic Vandal Dome IP Camera",
+  "subtitle": "12MP Panoramic Vandal Dome IP Camera",
+  "tier": "Network Products",
+  "category": "ip-camera",
+  "series": "Specialty",
+  "form": "Panoramic",
+  "environment": "Outdoor",
+  "highlights": [
+   "True Day/Night IR",
+   "Smart H.265/H.264",
+   "Digital PTZ (Drag & Zoom)",
+   "WDR 120dB",
+   "Advanced ROI",
+   "Dewarping"
+  ],
+  "overview": [],
+  "features": {
+   "key": [
+    "12.4 Megapixel 1/7″ SONY image sensor",
+    "4000(H) × 3000(V) 12MP/15fps",
+    "1.2mm 180° Panomorph Lens",
+    "True DN with Removable IR-Cut Filter",
+    "20M IR distance with Hi-power IRs",
+    "Smart H.265/H.264",
+    "Triple Streaming of H.265, H.264, and M-JPEG",
+    "VBR/CBR/SRC in H.265/H.264",
+    "Dewarping",
+    "Ultra SRC (Smart Rate Control)",
+    "Real WDR (120dB)",
+    "2D+3DNR",
+    "Digital PTZ (Drag & Drop Zoom control)",
+    "Advanced ROI (Region of Interest)",
+    "Motion detection",
+    "Waterproof (IP67)",
+    "Vandal-proof (IK10)",
+    "12VDC/ IEEE802.3af POE",
+    "ONVIF Conformant (Profile-S,T)"
+   ],
+   "general": [
+    "Full HD 1080",
+    "3-Axis",
+    "Poe",
+    "DNR",
+    "Defog",
+    "WDR"
+   ],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv201tfar.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV20TFAR_main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv201tfar/",
+  "notes": []
+ },
+ {
+  "slug": "vnv50161ar-i",
+  "model": "VNV50161AR-I",
+  "modelVariant": null,
+  "title": "3MP Mini-Vandal Dome IP Camera (2.8mm)",
+  "subtitle": "3MP Mini-Vandal Dome IP Camera",
+  "tier": "Stylish and compact",
+  "category": "ip-camera",
+  "series": "Specialty",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.264/H.265",
+   "2.8mm/4.0mm lens option",
+   "Compact vandal-proof",
+   "STARLUX",
+   "Audio in",
+   "WDR (120㏈)",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV50161AR-I is a 2MP Full HD Compact Mini-Vandal Dome camera designed cost effective and with a lot of unique and superb user-friendly features built-in. The compact and slim anti-vandal design with 2.8mm wide angle lens fits best for transportation like in buses, trains or interior environments like in elevator."
+   },
+   {
+    "p": "Empowered multiple core technologies such as Visionhitech’s superior image tuning technology, Starlux, Smart IR, True DN, Ultra smart rate control, Advanced ROI are all combined to ensure the consistent and ultra-clear image quality for day and night and 24/7."
+   },
+   {
+    "p": "The applied groundbreaking video streaming technology offers unprecedented network efficiencies. By this innovation it reduces the bandwidth by about 80% resulting in a dramatic increment of video transmission speed and a considerable amount of cost-saving out of significantly reduced storage and the consumption of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2048(H)x 1536(V), 2MP IPC",
+    "Smart H.264/H.265",
+    "2.8mm/4.0mm lens option",
+    "C-Mic built-in (Audio)",
+    "Motion Detection",
+    "Tool-Free 3-Axis mounting",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "WDR (120dB)",
+    "Low-latency video to any device(ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Anti-condensation Sensor & Heater",
+    "Smart Network status indication",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv50161ar-i.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNV50161AR-I-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv50161ar-i/",
+  "notes": []
+ },
+ {
+  "slug": "vnv50161ar-o",
+  "model": "VNV50161AR-O",
+  "modelVariant": null,
+  "title": "3MP Mini-Vandal Dome IP Camera (2.8mm)",
+  "subtitle": "3MP Mini-Vandal Dome IP Camera",
+  "tier": "Stylish and compact",
+  "category": "ip-camera",
+  "series": "Specialty",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [
+   "1920(H)x1080(V) 2MP IPC",
+   "Smart H.264/H.265",
+   "2.8mm/4.0mm lens option",
+   "Compact vandal-proof",
+   "STARLUX",
+   "WDR (120㏈)",
+   "12VDC/ IEEE802.3af POE"
+  ],
+  "overview": [
+   {
+    "p": "VNV50161AR-O is a 2MP Full HD Compact Mini-Vandal Dome camera designed cost effective and with a lot of unique and superb user-friendly features built-in. The compact and stylish anti-vandal design with 2.9mm wide angle lens fits best for transportation like in buses, trains or interior environments like in elevator."
+   },
+   {
+    "p": "Empowered with a lot of core technologies such as Visionhitech’s superior image tuning technology, Smart IR, True DN, Ultra smart rate control, Advanced ROI and so on and on are all combined to ensure of the consistent and ultra clear image quality for day and night and 24/7."
+   },
+   {
+    "p": "The reinforced network streaming technology offers unprecedented technical improvements such as remarkably increased data transmission speed and dramatically reduced size of the video bandwidth by about 80%, providing a considerable amount of cost-saving out of significantly reduced storage space and the size of data traffic."
+   }
+  ],
+  "features": {
+   "key": [],
+   "general": [
+    "2048(H)x 1536(V), 2MP IPC",
+    "Smart H.264/H.265",
+    "2.8mm/4.0mm lens option",
+    "Motion Detection",
+    "Tool-Free 3-Axis",
+    "IP67 Waterproof",
+    "IK10 Vandal-proof",
+    "ONVIF Conformant, Profile-S",
+    "12VDC/ IEEE802.3af POE",
+    "True Day/Night (ICR)",
+    "Smart IR",
+    "Long-range, low heat Hi-power IR",
+    "WDR (120dB)",
+    "Low-latency video to any device (ICR)",
+    "Triple-streaming with all codecs at real-time 30 fps",
+    "Corridor View"
+   ],
+   "special": [
+    "STARLUX",
+    "Ultra-Smart Rate Control",
+    "Advanced Region of Interest (ROI)",
+    "Anti-condensation Sensor & Heater",
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vnv50161ar-o.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VNV50161AR-O-thum.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vnv50161ar-o/",
+  "notes": []
+ },
+ {
+  "slug": "vr04s",
+  "model": "VR04S",
+  "modelVariant": null,
+  "title": "NDAA Compliant 4ch H.265 PoE",
+  "subtitle": null,
+  "tier": "Professional 4CH NVR",
+  "category": "nvr",
+  "series": "Middle",
+  "form": "PoE NVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 4CH H.265 Network Video Recorder",
+    "Powerful recording performance 180fps@4K2K + 180fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vr04s.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vr04s/",
+  "notes": []
+ },
+ {
+  "slug": "vr08s",
+  "model": "VR08S",
+  "modelVariant": null,
+  "title": "NDAA Compliant 8ch H.265 PoE",
+  "subtitle": null,
+  "tier": "Professional 8CH NVR",
+  "category": "nvr",
+  "series": "Middle",
+  "form": "PoE NVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 8CH H.265 Network Video Recorder",
+    "Powerful recording performance 300fps@4K2K + 300fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vr08s.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vr08s/",
+  "notes": []
+ },
+ {
+  "slug": "vr16s",
+  "model": "VR16S",
+  "modelVariant": null,
+  "title": "NDAA Compliant 16ch H.265 PoE",
+  "subtitle": null,
+  "tier": "Professional 16CH NVR",
+  "category": "nvr",
+  "series": "Middle",
+  "form": "PoE NVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 16CH H.265 Network Video Recorder",
+    "Powerful recording performance 480fps@4K2K + 480fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vr16s.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vr16s/",
+  "notes": []
+ },
+ {
+  "slug": "vas21s51e",
+  "model": "VAS21S51E",
+  "modelVariant": null,
+  "title": "HD Analog Mini Bullet Camera",
+  "subtitle": "HD Analog Mini Bullet Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Mini Bullet",
+  "environment": "Indoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2 Mega pixel 1/2.8” CMOS Sensor",
+    "1920(H) x 1080P(V) 2MP/30fps",
+    "2.8mm wide angle fixed lens",
+    "Transmission distance: 400m via 5C-HFBT /",
+    "200m via 3C/2V",
+    "AHD/TVI/CVBS Output",
+    "WDR, Defog, 2D/3D DNR,",
+    "Slow Shutter control (Sens-Up)",
+    "Privacy Masking up to 4 areas",
+    "Coaxitron",
+    "Dynamic Motion Detection (4separable areas)",
+    "Multi Language(16 Languages)",
+    "12VDC"
+   ],
+   "general": [
+    "Full HD 1080",
+    "Low Light",
+    "WDR"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "WDR"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "Product Image"
+  ],
+  "image": "/images/products/vas21s51e.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VAS21S51E-1.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vas21s51e/",
+  "notes": []
+ },
+ {
+  "slug": "vtn64a54er-2712",
+  "model": "VTN64A54ER",
+  "modelVariant": "(2712) (4x VF Zoom)",
+  "title": "2MP HD Analog MFZ Bullet Camera",
+  "subtitle": "2MP HD Analog MFZ Bullet Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "2.7~12mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Low light Sensitivity (STARLUX)",
+    "40M Smart IR",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "50M long distance & Smart IR",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "50M long distance & Smart IR",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtn64a54er-2712.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtn64a54er-2712/",
+  "notes": []
+ },
+ {
+  "slug": "vtn64a57e-0550",
+  "model": "VTN64A57E",
+  "modelVariant": "(0550) (10x VF Zoom)",
+  "title": "2MP HD Analog MFZ Bullet Camera",
+  "subtitle": "2MP HD Analog MFZ Bullet Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Low light Sensitivity (STARLUX)",
+    "5~50mm DC Iris Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Close-up a long-distance shot by 10 x optical zoom",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Close-up a long-distance shot by 10 x optical zoom",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtn64a57e-0550.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtn64a57e-0550/",
+  "notes": []
+ },
+ {
+  "slug": "vtn64s54er-3312",
+  "model": "VTN64S54ER",
+  "modelVariant": "(3312) (3x Zoom)",
+  "title": "2MP HD Analog MFZ Bullet Camera",
+  "subtitle": "2MP HD Analog MFZ Bullet Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Ultra low light performance",
+    "3.3~12mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "50M Smart IR",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Super Low-light sensitivity",
+    "50M long distance & Smart IR",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Super Low-light sensitivity",
+   "50M long distance & Smart IR",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtn64s54er-3312.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtn64s54er-3312/",
+  "notes": []
+ },
+ {
+  "slug": "vtv23a54er-2712",
+  "model": "VTV23A54ER",
+  "modelVariant": "(2712) (4x VF Zoom)",
+  "title": "2MP HD Analog MFZ Vandal-Dome Camera",
+  "subtitle": "2MP HD Analog MFZ Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Low light Sensitivity (STARLUX)",
+    "40M Smart IR",
+    "2.7~12mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Close-up a long-distance shot by 4 x optical zoom",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Close-up a long-distance shot by 4 x optical zoom",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv23a54er-2712.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2021/03/VTV23A54ER-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv23a54er-2712/",
+  "notes": []
+ },
+ {
+  "slug": "vtv23a57er-0550",
+  "model": "VTV23A57ER",
+  "modelVariant": "(0550) (10x VF Zoom)",
+  "title": "2MP HD Analog MFZ Vandal-Dome Camera",
+  "subtitle": "2MP HD Analog MFZ Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m",
+    "(no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Low light Sensitivity (STARLUX)",
+    "40M Smart IR",
+    "5.0~50mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Close-up a long-distance shot by 4 x optical zoom",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Close-up a long-distance shot by 10 x optical zoom",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv23a57er-0550.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VTV23A57ER-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv23a57er-0550/",
+  "notes": []
+ },
+ {
+  "slug": "vtv80a53er",
+  "model": "VTV80A53ER",
+  "modelVariant": null,
+  "title": "2MP HD Analog Vandal-Dome Camera",
+  "subtitle": "2MP HD Analog Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Super Low light Sensitivity (Ultra STARLUX)",
+    "40M Smart IR",
+    "3.3~12mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Close-up a long-distance shot by 3 x optical zoom",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Close-up a long-distance shot by 3 x optical zoom",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv80a53er.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/thum-VTV80C51E-F.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv80a53er/",
+  "notes": []
+ },
+ {
+  "slug": "vtv80c51e-f",
+  "model": "VTV80C51E-F",
+  "modelVariant": null,
+  "title": "2MP HD Analog Fixed Vandal-Dome Camera (Ultra STARLUX)",
+  "subtitle": "2MP HD Analog Fixed Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.13 Mega 1/2.8″ Sony Super Low-light Image Sensor",
+    "Full HD resolution 1920 x 1080P(30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m",
+    "(no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "4mm Fixed Lens (F=0.95)",
+    "WDR, Defog, 2D/3D DNR, Slow Shutter control (Sense-Up)",
+    "Privacy Masking up to 16 areas",
+    "Full OSD operation through on-board control and UTC (up the coax)",
+    "Dynamic Motion Detection",
+    "Multi language (5 Languages)",
+    "Perfect 3-Axis Mechanism",
+    "12VDC operation",
+    "IP66 compliant"
+   ],
+   "general": [
+    "3-Axis",
+    "12VDC",
+    "RoHs",
+    "Ultra-STARLUX",
+    "WDR (120dB)",
+    "De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Ultra STARLUX technology See-through the 0.1lux darkness in full Color/ ‘0’lux in BW IR The Ultra-Starlux camera comprises of an ultra-sensitive Starvis sensor, high-end ISP, and Visionhitech’s advanced video tuning technologies. The technology allows the camera to conduct low light performance by 50% higher than the STARVIS camera and to capture live color video in as low as 0.1 lux darkness. At below 0.1lux, the camera turns to True DN mode that displays B/W image with the IR illumination on automatic. The lux value of the 0.1 may refer to the darkness level of the mid-night after the sunset. At this range, the human eye loses its sensitivity to recognize the scene. Ultra-Starlux technology enhances the colorful images taken into the camera more vivid and bright so that the details of objects that were indiscernible with the naked eye or with B/W IR mode be distinctly identifiable.",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv80c51e-f.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/thum-VTV80C51E-F.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv80c51e-f/",
+  "notes": []
+ },
+ {
+  "slug": "vtv80s54er",
+  "model": "VTV80S54ER",
+  "modelVariant": null,
+  "title": "2MP HD Analog MFZ Vandal-Dome Camera",
+  "subtitle": "2MP HD Analog Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "2MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "2.0 Mega 1/2.8″ SONY Low-Light STARVIS Sensor",
+    "Full HD resolution 1920 x 1080P (30fps)",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m",
+    "(no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "Low light Sensitivity (Ultra STARLUX)",
+    "40M Smart IR",
+    "3.0~12mm Motorized lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Defog",
+    "Privacy Mask",
+    "Dynamic Motion Detection",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Close-up a long-distance shot by 4 x optical zoom",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "WDR (120dB)",
+    ">De-FOG"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Close-up a long-distance shot by 3 x optical zoom",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "WDR (120dB)",
+   "Defog"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv80s54er.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/thum-VTV80C51E-F.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv80s54er/",
+  "notes": []
+ },
+ {
+  "slug": "vtn64184er",
+  "model": "VTN64184ER",
+  "modelVariant": null,
+  "title": "5MP HD Analog MFZ Bullet Camera",
+  "subtitle": "5MP HD Analog MFZ Bullet Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "5MP",
+  "form": "Bullet",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "1/2.8″ 5.69 Mega SONY Low-Light STARVIS Sensor",
+    "Supports 5MP/4MP//2MP Realtime multi-resolution",
+    "Supports TVI/AHD/CVI/CVBS Output",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "2.7~12mm 5 Mega Motorized Varifocal lens",
+    "WDR, Defog, 3DNR, Slow Shutter control (Sens-Up)",
+    "Ultra Low light Sensitivity (Ultra STARVIS)",
+    "50M Long distance & Smart IR",
+    "WDR (120dB)/ ROI (Region of Interest) WDR",
+    "Privacy Mask, Defog",
+    "Supports 13 Languages",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Sense-up X 30",
+    "3-Axis",
+    "RoHS",
+    "Smart IR",
+    "De-FOG",
+    "Higher mega pixel, Higher clarity",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "50M long distance & Smart IR",
+    "WDR (120dB)"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Higher mega pixel, Higher clarity",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "50M long distance & Smart IR",
+   "WDR (120dB)"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtn64184er.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/4-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtn64184er/",
+  "notes": []
+ },
+ {
+  "slug": "vtv23184er",
+  "model": "VTV23184ER",
+  "modelVariant": null,
+  "title": "5MP HD Analog MFZ Vandal-Dome Camera",
+  "subtitle": "5MP HD Analog MFZ Vandal-Dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "5MP",
+  "form": "Dome",
+  "environment": "Outdoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "1/2.8″ 5.69 Mega SONY Low-Light STARVIS Sensor",
+    "Supports 5MP/4MP//2MP Realtime multi-resolution",
+    "Supports TVI/AHD/CVBS Output all-in-one",
+    "100% Clear Video transmission up to 300m (no line drop)",
+    "Serial communication over the Coax (COAXITRON)",
+    "2.7~12mm 5MP Motorized Varifocal lens",
+    "Ultra Low light Sensitivity (Ultra STARVIS)",
+    "50M Long distance & Smart IR",
+    "WDR (120dB)/ ROI (Region of Interest) WDR",
+    "Privacy Mask, Defog",
+    "Supports 13 Languages",
+    "Dual power DC12/AC24 for long distance power draw",
+    "IP67 Weatherproof",
+    "IK10 Vandal-proof"
+   ],
+   "general": [
+    "Sense-up X 30",
+    "3-Axis",
+    "RoHS",
+    "Smart IR",
+    "De-FOG",
+    "Higher mega pixel, Higher clarity",
+    "Quick and Precise Smart-Focus remotely via OSD",
+    "Serial communication over the Coax (COAXITRON)",
+    "50M long distance & Smart IR",
+    "WDR (120dB)"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "Higher mega pixel, Higher clarity",
+   "Quick and Precise Smart-Focus remotely via OSD",
+   "Serial communication over the Coax (COAXITRON)",
+   "50M long distance & Smart IR",
+   "WDR (120dB)"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vtv23184er.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VTV23184ER-main.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vtv23184er/",
+  "notes": []
+ },
+ {
+  "slug": "vci70131",
+  "model": "VCI70131",
+  "modelVariant": null,
+  "title": "WDR Mini Armor Vandal Dome Camera",
+  "subtitle": "WDR Mini Armor Vandal dome Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "Specialty",
+  "form": "Dome",
+  "environment": "Indoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "1.3 Megapixel 1/3.2” Sony CMOS image sensor",
+    "High Resolution of 1000TVL",
+    "WDR(Wide Dynamic Range)",
+    "2DNR(2D Noise Reduction)",
+    "1280H Analogue output(CVBS)",
+    "12VDC"
+   ],
+   "general": [
+    "Low Light",
+    "Vandal Proof",
+    "WDR"
+   ],
+   "special": []
+  },
+  "technologyNotes": [
+   "WDR"
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vci70131.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VCI70131.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vci70131/",
+  "notes": []
+ },
+ {
+  "slug": "vcq33131",
+  "model": "VCQ33131",
+  "modelVariant": null,
+  "title": "WDR Miniature Camera",
+  "subtitle": "WDR Miniature Camera",
+  "tier": "HD Analog",
+  "category": "hd-analog-camera",
+  "series": "Specialty",
+  "form": "Miniature",
+  "environment": "Indoor",
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "1.3Megapixel 1/3.2” Sony CMOS image sensor",
+    "High Resolution of 1000TVL",
+    "WDR(Wide Dynamic Range)",
+    "2DNR(2D Noise Reduction)",
+    "1280H Analogue output(CVBS)",
+    "12VDC"
+   ],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vcq33131.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VCQ33131.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vcq33131/",
+  "notes": []
+ },
+ {
+  "slug": "vd04t",
+  "model": "VD04T",
+  "modelVariant": null,
+  "title": "NDAA 4ch Hybrid DVR",
+  "subtitle": "NDAA 4ch Hybrid DVR",
+  "tier": "Analog HD H.265 Hybrid DVR",
+  "category": "dvr",
+  "series": "Hybrid DVR",
+  "form": "Hybrid DVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 4CH H.265 Hybrid Video Recorder",
+    "Self-adaptive Multi-Video codecs (TVI/AHD/CVI/CVBS)",
+    "Powerful recording performance",
+    "180fps@4K2K + 180fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vd04t.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vd04t/",
+  "notes": []
+ },
+ {
+  "slug": "vd08t",
+  "model": "VD08T",
+  "modelVariant": null,
+  "title": "NDAA 8ch Hybrid DVR",
+  "subtitle": "NDAA 8ch Hybrid DVR",
+  "tier": "Analog HD H.265 Hybrid DVR",
+  "category": "dvr",
+  "series": "Hybrid DVR",
+  "form": "Hybrid DVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 8CH H.265 Hybrid Video Recorder",
+    "Self-adaptive Multi-Video codecs (TVI/AHD/CVI/CVBS)",
+    "Powerful recording performance",
+    "300fps@4K2K + 300fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vd08t.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vd08t/",
+  "notes": []
+ },
+ {
+  "slug": "vd16t",
+  "model": "VD16T",
+  "modelVariant": null,
+  "title": "NDAA 16ch Hybrid DVR",
+  "subtitle": "NDAA 16ch Hybrid DVR",
+  "tier": "Analog HD H.265 Hybrid DVR",
+  "category": "dvr",
+  "series": "Hybrid DVR",
+  "form": "Hybrid DVR",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "Realtime 16CH H.265 Hybrid Video Recorder",
+    "Self-adaptive Multi-Video codecs (TVI/AHD/CVI/CVBS)",
+    "Powerful recording performance",
+    "480fps@4K2K + 480fps@D1/VGA",
+    "Support resolution up to 4096×2160",
+    "Powerful 6Mbps throughput to each CH",
+    "Improved low transmission latency w/multi-slicing",
+    "Configurable Advanced Mirroring for stable recorded data protection against HDD failure to each CH",
+    "Automatic Port Forwarding",
+    "POS Interface Integration via USB",
+    "Smart Panoramic Search by user configurable interval time set-up (sec/min etc.)",
+    "Multi-channel copy/back-up/playback with embedded AVI player",
+    "Main Monitor Output up to 4K/30 for HDMI and 1080p/60 for VGA",
+    "Multiple CH View: 1,4,6,7,8,9, (10,13,16) for both live and playback",
+    "Self-diagnostic health checking for FAN/Recording/HDD S.M.A.R.T",
+    "Dynamic Event Push to IOS and Android",
+    "Diverse remote SW: RMS/ Web/ MAC OSX/ Android/IOS",
+    "Easy remote setup and viewer via PC or Mobile",
+    "Web browsing via IE/Chrome/Firefox",
+    "Free VMS (up to 64CH) support"
+   ],
+   "general": [
+    "High-end performance at low cost",
+    "Extensive and Powerful SOC",
+    "Realtime live/record/playback",
+    "Unprecedented fast transmission",
+    "Smart and easy plug & play"
+   ],
+   "special": [
+    "NDAA Compliant"
+   ]
+  },
+  "technologyNotes": [
+   "NDAA Compliant!! The design and manufacture of the product are of Korean origin and fully comply with the NDAA protocol."
+  ],
+  "documents": [
+   "Datasheet",
+   "Manual",
+   "Drawing",
+   "F/W",
+   "Product Image"
+  ],
+  "image": "/images/products/vd16t.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/nvr.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vd16t/",
+  "notes": []
+ },
+ {
+  "slug": "wtx-1200a",
+  "model": "WTX-1200A",
+  "modelVariant": null,
+  "title": "PTZ Controller",
+  "subtitle": "PTZ Controller",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Controller",
+  "form": "PTZ Controller",
+  "environment": null,
+  "highlights": [],
+  "overview": [],
+  "features": {
+   "key": [
+    "USB mouse function",
+    "Operate with 9V battery",
+    "Controls up to 255 cameras.",
+    "Multiple protocol supported in each channel",
+    "RS-485 / RS-422 communication",
+    "(Tx : 3 port, TRx : 1 port)",
+    "Programmable user preferences.",
+    "(Preset, Tour, Pattern, etc.)",
+    "Built-in 3-Axis proportional joystick",
+    "Easy upload programmed data via serial communication.",
+    "Built-in 2 lines character LCD.",
+    "User password support.",
+    "Programmable transmission speed for each ID. (2.4~57.6kbps)",
+    "Easy to be intergrated with DVR",
+    "(key-code value provided)",
+    "Specifications",
+    "Keyboard Communication",
+    "Interface : RS-485 / RS-422",
+    "Operating distance : 4000ft (1.2Km) on 24 AWG wire",
+    "Protocol : Multiple",
+    "(Pelco-D, Pelco-P, WONWOO, Etc.)(Baud rate selectable)",
+    "Connector Type Data",
+    "Terminal Block(8p)",
+    "Keyboard Button",
+    "Rubber button",
+    "Numberic keypad and camera function key",
+    "Joystick",
+    "Stick 3-axis, variable speed with zoom",
+    "Input Voltage",
+    "DC 12V or 9V battery (Battery mode)",
+    "Power Consumption",
+    "Max. 140mA",
+    "LCD Display",
+    "Graphic display 16 character x2 lines",
+    "Operating Temperature",
+    "0℃ ~ 45℃",
+    "Humidity",
+    "10% ~70% Non-condensing",
+    "Dimension",
+    "280(W) x 100.08(H) x 179.3(D)mm",
+    "Weight",
+    "0.7 kg",
+    "Packing Include",
+    "WTX-1200A Keyboard, Adaptor",
+    "USB Cable, Manual, Terminal block(8p)"
+   ],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Datasheet",
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/wtx-1200a.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/product-img-3.jpg",
+  "sourceUrl": "https://visionhitechsecurity.com/product/wtx-1200a/",
+  "notes": []
+ },
+ {
+  "slug": "vb-b20",
+  "model": "VB-B20",
+  "modelVariant": null,
+  "title": "Bracket",
+  "subtitle": "Bracket",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Bracket",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VC59 Series",
+   "Material : Aluminum",
+   "Color : Black",
+   "Dimension(WxHxD) : Ø80×138(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vb-b20.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VB-B20.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vb-b20/",
+  "notes": []
+ },
+ {
+  "slug": "vba130",
+  "model": "VBA130",
+  "modelVariant": null,
+  "title": "Junction Box+Adaptor",
+  "subtitle": "Junction Box+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Junction Box",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VN62/VN63/VN6X",
+   "Material : Aluminum",
+   "Color : Metal Gray or Silver",
+   "Dimension : Ø130×47(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vba130.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBA130.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vba130/",
+  "notes": []
+ },
+ {
+  "slug": "vba99",
+  "model": "VBA99",
+  "modelVariant": null,
+  "title": "Junction Box+Adaptor",
+  "subtitle": "Junction Box+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Junction Box",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VN10/VN32 Series",
+   "Material : Aluminum",
+   "Color : Metal Gray",
+   "Dimension",
+   ": Ø99×63.5(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vba99.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBA99.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vba99/",
+  "notes": []
+ },
+ {
+  "slug": "vbj120",
+  "model": "VBJ120",
+  "modelVariant": null,
+  "title": "Junction Box",
+  "subtitle": "Junction Box",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Junction Box",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VDA80 Series",
+   "Material : Aluminum",
+   "Color : White",
+   "Dimension : Ø121×47.5(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vbj120.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VBJ120-thum.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vbj120/",
+  "notes": []
+ },
+ {
+  "slug": "vbj130",
+  "model": "VBJ130",
+  "modelVariant": null,
+  "title": "Junction Box",
+  "subtitle": "Junction Box",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Junction Box",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VDA130/VDA230 Series",
+   "Material : Aluminum",
+   "Color : Metal Gray",
+   "Dimension : Ø130×47(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vbj130.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBJ130.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vbj130/",
+  "notes": []
+ },
+ {
+  "slug": "vbj99",
+  "model": "VBJ99",
+  "modelVariant": null,
+  "title": "Junction Box",
+  "subtitle": "Junction Box",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Junction Box",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VN62 Series",
+   "Material : Aluminum",
+   "Color : Metal Gray",
+   "Dimension : Ø99×54(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vbj99.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBJ99.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vbj99/",
+  "notes": []
+ },
+ {
+  "slug": "vbn-6x",
+  "model": "VBN-6X",
+  "modelVariant": null,
+  "title": "Adaptor",
+  "subtitle": "Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Adaptor",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VN6X Series",
+   "Material : Aluminum",
+   "Color : Black & Silver",
+   "Dimension : Ø92×20(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vbn-6x.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBN-6X.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vbn-6x/",
+  "notes": []
+ },
+ {
+  "slug": "vbn-7x",
+  "model": "VBN-7X",
+  "modelVariant": null,
+  "title": "Adaptor",
+  "subtitle": "Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Adaptor",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VN7X Series",
+   "Material : Aluminum",
+   "Color : Black & Silver",
+   "Dimension : Ø114×18(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vbn-7x.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VBN-7X.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vbn-7x/",
+  "notes": []
+ },
+ {
+  "slug": "vcb120",
+  "model": "VCB120",
+  "modelVariant": null,
+  "title": "Ceiling Mount Bracket+Adaptor",
+  "subtitle": "Ceiling Mount bracket+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Ceiling Mount",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VPD120 Series",
+   "Material : Aluminum",
+   "Color : Ivory",
+   "Dimension(WxHxD) : Ø118×210(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vcb120.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/1-1.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vcb120/",
+  "notes": []
+ },
+ {
+  "slug": "vcb80",
+  "model": "VCB80",
+  "modelVariant": null,
+  "title": "Ceiling Mount Bracket+Adaptor",
+  "subtitle": "Ceiling Mount Bracket+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Ceiling Mount",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VDA80 Series",
+   "Material : Aluminum",
+   "Color : Ivory or White",
+   "Dimension : Ø124×225(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vcb80.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/VCB80-1.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vcb80/",
+  "notes": []
+ },
+ {
+  "slug": "vpm100",
+  "model": "VPM100",
+  "modelVariant": null,
+  "title": "Pole Mount Bracket",
+  "subtitle": "Pole Mount Bracket",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Pole Mount",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VDA80/VPD120 Series",
+   "Material : Aluminum",
+   "Color : Ivory",
+   "Dimension (WxHxD) : 194x127x50(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vpm100.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/product-img-light-2.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vpm100/",
+  "notes": []
+ },
+ {
+  "slug": "vwa120",
+  "model": "VWA120",
+  "modelVariant": null,
+  "title": "Wall Mount Bracket+Adaptor",
+  "subtitle": "Wall Mount Bracket+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Wall Mount",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VPD120 Series",
+   "Material : Aluminum",
+   "Color : Ivory",
+   "Dimension(WxHxD) : Ø96×194.5x100x160(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vwa120.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/120.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vwa120/",
+  "notes": []
+ },
+ {
+  "slug": "vwa80",
+  "model": "VWA80",
+  "modelVariant": null,
+  "title": "Wall Mount Bracket+Adaptor",
+  "subtitle": "Wall Mount Bracket+Adaptor",
+  "tier": "Accessories",
+  "category": "accessory",
+  "series": "Mount",
+  "form": "Wall Mount",
+  "environment": null,
+  "highlights": [
+   "Compatible model : VDA80 Series",
+   "Material : Aluminum",
+   "Color : Ivory",
+   "Dimension(WxHxD) : Ø106.5×208.4x100x160(mm)"
+  ],
+  "overview": [],
+  "features": {
+   "key": [],
+   "general": [],
+   "special": []
+  },
+  "technologyNotes": [],
+  "documents": [
+   "Product Image",
+   "Drawing",
+   "Catalog"
+  ],
+  "image": "/images/products/vwa80.webp",
+  "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/09/product-img-12.png",
+  "sourceUrl": "https://visionhitechsecurity.com/product/vwa80/",
+  "notes": []
+ }
+]

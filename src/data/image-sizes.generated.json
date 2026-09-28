@@ -1,0 +1,218 @@
+{
+ "cutouts/vnn64lu4ar": [
+  692,
+  406
+ ],
+ "cutouts/vnv15lu4ar": [
+  531,
+  494
+ ],
+ "cutouts/vnv23lu4ar": [
+  530,
+  498
+ ],
+ "cutouts/vnv13lu4ar": [
+  501,
+  437
+ ],
+ "cutouts/vr16s": [
+  652,
+  274
+ ],
+ "cutouts/vd16t": [
+  652,
+  274
+ ],
+ "cutouts/vnn64c57ar": [
+  692,
+  406
+ ],
+ "cutouts/vnv23194ar": [
+  530,
+  498
+ ],
+ "cutouts/vnn63lu4ar": [
+  698,
+  350
+ ],
+ "site/hq-building": [
+  1400,
+  807
+ ],
+ "site/factory-3": [
+  700,
+  400
+ ],
+ "site/factory-4": [
+  700,
+  400
+ ],
+ "site/production-line": [
+  600,
+  400
+ ],
+ "site/test-chamber": [
+  500,
+  500
+ ],
+ "site/test-water-spray": [
+  800,
+  600
+ ],
+ "site/wdr-normal": [
+  1000,
+  667
+ ],
+ "site/wdr-on": [
+  1000,
+  667
+ ],
+ "site/lux-normal-01": [
+  500,
+  300
+ ],
+ "site/lux-ustarlux-01": [
+  500,
+  300
+ ],
+ "site/lux-ustarlux-10": [
+  500,
+  300
+ ],
+ "site/roi-normal": [
+  1000,
+  666
+ ],
+ "site/roi-basic": [
+  1000,
+  666
+ ],
+ "site/roi-advanced": [
+  1000,
+  666
+ ],
+ "site/colornight-normal": [
+  600,
+  343
+ ],
+ "site/colornight-ir": [
+  600,
+  343
+ ],
+ "site/colornight-on": [
+  600,
+  343
+ ],
+ "site/smartir-normal": [
+  925,
+  535
+ ],
+ "site/smartir-on": [
+  925,
+  535
+ ],
+ "site/ir-longrange-normal": [
+  907,
+  656
+ ],
+ "site/ir-longrange-on": [
+  907,
+  656
+ ],
+ "site/truedn-day": [
+  1000,
+  664
+ ],
+ "site/truedn-night": [
+  1000,
+  664
+ ],
+ "site/uhd-street": [
+  400,
+  300
+ ],
+ "site/triple-stream": [
+  1226,
+  600
+ ],
+ "site/vms-screen": [
+  600,
+  450
+ ],
+ "site/vms-architecture": [
+  600,
+  400
+ ],
+ "site/sd-slot": [
+  500,
+  300
+ ],
+ "site/heat-dissipation": [
+  500,
+  300
+ ],
+ "site/network-indicator": [
+  500,
+  300
+ ],
+ "site/zoom-10x": [
+  600,
+  343
+ ],
+ "site/news-recorder": [
+  500,
+  350
+ ],
+ "site/news-ambarella": [
+  500,
+  350
+ ],
+ "site/news-4k": [
+  500,
+  350
+ ],
+ "site/render-dome-dark": [
+  390,
+  320
+ ],
+ "site/render-dome-white": [
+  390,
+  320
+ ],
+ "site/composite-night": [
+  540,
+  650
+ ],
+ "site/ndaa": [
+  500,
+  300
+ ],
+ "site/corridor-hotel": [
+  500,
+  750
+ ],
+ "site/corridor-school": [
+  500,
+  750
+ ],
+ "site/vms-e-map": [
+  600,
+  400
+ ],
+ "env/env-marine-day": [
+  1920,
+  1280
+ ],
+ "env/env-marine-night": [
+  1920,
+  1264
+ ],
+ "env/env-crossroads": [
+  1920,
+  1280
+ ],
+ "env/env-city-night": [
+  1920,
+  1080
+ ]
+}
