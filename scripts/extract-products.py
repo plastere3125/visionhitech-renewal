@@ -252,12 +252,15 @@ def main():
             "sourceUrl": x["permalink"],
             "notes": notes,
         })
+        # Existing site lists the product in an additional top-level family (IP CAMERA > VHT ZOOM MODULE).
+        if "vht-ip" in cats:
+            products[-1]["alsoIn"] = ["zoom-module"]
     order = ["ip-camera", "nvr", "hd-analog-camera", "dvr", "accessory"]
     products.sort(key=lambda p: (order.index(p["category"]), p["series"], p["model"]))
     json.dump(products, open(OUT, "w"), ensure_ascii=False, indent=1)
     # Lightweight index for client components (filters, inquiry select, cards) — keeps long copy out of JS bundles.
     lite_keys = ["slug", "model", "title", "subtitle", "tier", "category", "series", "form", "environment", "image"]
-    json.dump([{k: p[k] for k in lite_keys} for p in products], open(OUT.replace("products.generated", "catalog.generated"), "w"), ensure_ascii=False)
+    json.dump([{k: p[k] for k in lite_keys + ["alsoIn"] if k in p} for p in products], open(OUT.replace("products.generated", "catalog.generated"), "w"), ensure_ascii=False)
     print(f"{len(products)} products -> {os.path.relpath(OUT, ROOT)}")
     for p in products:
         if p["notes"]:

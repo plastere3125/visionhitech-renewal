@@ -1192,7 +1192,10 @@
   "image": "/images/products/vnp36d5var.webp",
   "sourceImage": "https://visionhitechsecurity.com/wp-content/uploads/2020/10/VNP36D5VAR-thum.png",
   "sourceUrl": "https://visionhitechsecurity.com/product/vnp36d5var/",
-  "notes": []
+  "notes": [],
+  "alsoIn": [
+   "zoom-module"
+  ]
  },
  {
   "slug": "vnv13c54ar",

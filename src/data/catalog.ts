@@ -5,7 +5,7 @@
  */
 import lite from "./catalog.generated.json";
 
-export type CategoryId = "ip-camera" | "nvr" | "hd-analog-camera" | "dvr" | "software" | "accessory";
+export type CategoryId = "ip-camera" | "nvr" | "hd-analog-camera" | "dvr" | "zoom-module" | "software" | "accessory";
 
 export interface CatalogItem {
   slug: string;
@@ -14,6 +14,8 @@ export interface CatalogItem {
   subtitle: string | null;
   tier: string | null;
   category: CategoryId;
+  /** Additional families the existing site also lists this product under (e.g. VHT ZOOM MODULE). */
+  alsoIn?: CategoryId[];
   series: string;
   form: string | null;
   environment: string | null;
@@ -35,15 +37,19 @@ const SOFTWARE_ITEM: CatalogItem = {
 
 export const CATALOG: CatalogItem[] = [...(lite as CatalogItem[]), SOFTWARE_ITEM];
 
-export const CATEGORY_ORDER: CategoryId[] = ["ip-camera", "nvr", "hd-analog-camera", "dvr", "software", "accessory"];
+export const CATEGORY_ORDER: CategoryId[] = ["ip-camera", "nvr", "hd-analog-camera", "dvr", "zoom-module", "software", "accessory"];
 
 export const FEATURED_SLUGS = ["vnn64lu4ar", "vnv15lu4ar", "vnp36d5var", "vnn32f7vyr", "vnv201tfar", "vr16s", "vd16t", "vtn64184er"] as const;
 
 export function getItem(slug: string): CatalogItem | undefined {
   return CATALOG.find((p) => p.slug === slug);
 }
+/** True when the product is listed under the category, as primary family or as an additional one. */
+export function inCategory(p: Pick<CatalogItem, "category" | "alsoIn">, category: CategoryId): boolean {
+  return p.category === category || Boolean(p.alsoIn?.includes(category));
+}
 export function productsIn(category: CategoryId): CatalogItem[] {
-  return CATALOG.filter((p) => p.category === category);
+  return CATALOG.filter((p) => inCategory(p, category));
 }
 export function seriesOf(category: CategoryId): string[] {
   return Array.from(new Set(productsIn(category).map((p) => p.series)));

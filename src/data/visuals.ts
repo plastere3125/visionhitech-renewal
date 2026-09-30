@@ -6,6 +6,7 @@ export const CATEGORY_IMAGE: Record<CategoryId, string> = {
   nvr: "/images/products/vr16s.webp",
   "hd-analog-camera": "/images/products/vtv23184er.webp",
   dvr: "/images/products/vd16t.webp",
+  "zoom-module": "/images/products/vnp36d5var.webp",
   software: "/images/site/vms-screen.webp",
   accessory: "/images/products/vba130.webp",
 };

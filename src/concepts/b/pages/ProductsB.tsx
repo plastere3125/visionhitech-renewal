@@ -5,7 +5,7 @@ import { getContent } from "@/content";
 import { CLink } from "@/components/shared/CLink";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton } from "@/components/shared/Inquiry";
-import { CATEGORY_ORDER, CATALOG, productLine, type CategoryId } from "@/data/catalog";
+import { CATEGORY_ORDER, CATALOG, inCategory, productLine, type CategoryId } from "@/data/catalog";
 import { useHash } from "@/lib/useHash";
 import { cn } from "@/lib/cn";
 import { ProductCardB } from "../ProductCardB";
@@ -26,7 +26,7 @@ export function ProductsExplorerB() {
     setEnv(null);
   }
 
-  const inCat = useMemo(() => (category ? CATALOG.filter((p) => p.category === category) : CATALOG), [category]);
+  const inCat = useMemo(() => (category ? CATALOG.filter((p) => inCategory(p, category)) : CATALOG), [category]);
   const seriesList = Array.from(new Set(inCat.map((p) => p.series)));
   const envList = Array.from(new Set(inCat.map((p) => p.environment).filter(Boolean))) as string[];
   const list = inCat.filter(
@@ -66,7 +66,7 @@ export function ProductsExplorerB() {
               {CATEGORY_ORDER.map((c) => (
                 <button key={c} type="button" aria-pressed={category === c} onClick={() => setHash(c)} className={opt(category === c)}>
                   {site.categories[c].label}
-                  <span className="font-mono text-[0.7rem] text-mute">{CATALOG.filter((p) => p.category === c).length}</span>
+                  <span className="font-mono text-[0.7rem] text-mute">{CATALOG.filter((p) => inCategory(p, c)).length}</span>
                 </button>
               ))}
             </div>

@@ -11,7 +11,7 @@ import { Container, SectionHead } from "../ui";
 /**
  * Open product section — full-bleed studio grey. Product photos share the exact studio
  * background, so the hardware floats on the page with no card frames (scale-contrast:
- * three large families + three compact ones).
+ * three large families + four compact ones).
  */
 export function IntroA() {
   const { homeA, site } = getContent();
@@ -57,7 +57,7 @@ export function IntroA() {
             </Reveal>
           ))}
         </ul>
-        <ul className="mt-16 grid border-t border-fg/15 sm:grid-cols-3">
+        <ul className="mt-16 grid border-t border-fg/15 sm:grid-cols-2 lg:grid-cols-4">
           {secondary.map((c) => (
             <li key={c}>
               <CLink concept="a" href={`/products/#${c}`} className="group flex items-center gap-5 py-6 sm:pr-6">

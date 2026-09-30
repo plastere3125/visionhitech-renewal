@@ -5,7 +5,7 @@ import { getContent } from "@/content";
 import { CLink } from "@/components/shared/CLink";
 import { Img } from "@/components/shared/Img";
 import { InquiryButton } from "@/components/shared/Inquiry";
-import { featured, CATALOG, productLine, type CategoryId, type CatalogItem } from "@/data/catalog";
+import { featured, CATALOG, inCategory, productLine, type CategoryId, type CatalogItem } from "@/data/catalog";
 import { cn } from "@/lib/cn";
 import { ArrowB, HeadB, Wrap } from "../ui";
 
@@ -15,6 +15,7 @@ const FILTERS: Array<{ id: "featured" | CategoryId; label: string }> = [
   { id: "nvr", label: "NVR" },
   { id: "hd-analog-camera", label: "HD" },
   { id: "dvr", label: "DVR" },
+  { id: "zoom-module", label: "Zoom" },
   { id: "software", label: "SW" },
 ];
 
@@ -25,7 +26,7 @@ export function IndexB() {
   const [hover, setHover] = useState<CatalogItem | null>(null);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   const box = useRef<HTMLDivElement>(null);
-  const rows = f === "featured" ? featured() : CATALOG.filter((p) => p.category === f).slice(0, 8);
+  const rows = f === "featured" ? featured() : CATALOG.filter((p) => inCategory(p, f)).slice(0, 8);
 
   return (
     <section aria-labelledby="idx-b" className="border-t border-line py-28 md:py-40">

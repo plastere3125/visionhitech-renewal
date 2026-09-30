@@ -159,6 +159,7 @@ function CLinkB({ href, children }: { href: string; children: React.ReactNode })
 type NodeId = CategoryId | "operator";
 const NODES: Array<{ id: NodeId; x: number; y: number; col: string }> = [
   { id: "ip-camera", x: 12, y: 26, col: "Capture" },
+  { id: "zoom-module", x: 12, y: 48, col: "Capture" },
   { id: "hd-analog-camera", x: 12, y: 70, col: "Capture" },
   { id: "accessory", x: 12, y: 96, col: "Install" },
   { id: "nvr", x: 42, y: 26, col: "Record" },
@@ -170,6 +171,7 @@ const EDGES: Array<[NodeId, NodeId]> = [
   ["ip-camera", "nvr"],
   ["hd-analog-camera", "dvr"],
   ["accessory", "ip-camera"],
+  ["zoom-module", "ip-camera"],
   ["nvr", "software"],
   ["dvr", "software"],
   ["software", "operator"],

@@ -5,7 +5,7 @@
  * only UI labels and marketing copy live in src/content/<locale>/.
  */
 import generated from "./products.generated.json";
-import { CATEGORY_ORDER, featured, FEATURED_SLUGS, productLine, type CatalogItem, type CategoryId } from "./catalog";
+import { CATEGORY_ORDER, featured, FEATURED_SLUGS, inCategory, productLine, type CatalogItem, type CategoryId } from "./catalog";
 
 export { CATEGORY_ORDER, featured, FEATURED_SLUGS, productLine };
 export type { CategoryId };
@@ -87,7 +87,7 @@ export function getProduct(slug: string): Product | undefined {
 }
 
 export function productsIn(category: CategoryId): Product[] {
-  return PRODUCTS.filter((p) => p.category === category);
+  return PRODUCTS.filter((p) => inCategory(p, category));
 }
 
 export function seriesOf(category: CategoryId): string[] {

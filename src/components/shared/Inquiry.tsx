@@ -143,7 +143,7 @@ export function InquiryForm({ defaultProduct = "", variant, compact }: { default
         </label>
         <select id={`${uid}-product`} name="product" defaultValue={defaultProduct} className={cn(field, "appearance-none")}>
           <option value="">{site.inquiry.generalOption}</option>
-          {CATEGORY_ORDER.map((cat) => (
+          {CATEGORY_ORDER.filter((cat) => CATALOG.some((p) => p.category === cat)).map((cat) => (
             <optgroup key={cat} label={site.categories[cat].label}>
               {CATALOG.filter((p) => p.category === cat).map((p) => (
                 <option key={p.slug} value={p.model}>

@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { getContent } from "@/content";
 import { Img } from "@/components/shared/Img";
-import { CATEGORY_ORDER, CATALOG, productLine, type CategoryId } from "@/data/catalog";
+import { CATEGORY_ORDER, CATALOG, inCategory, productLine, type CategoryId } from "@/data/catalog";
 import { CATEGORY_IMAGE } from "@/data/visuals";
 import { useHash } from "@/lib/useHash";
 import { cn } from "@/lib/cn";
@@ -22,7 +22,7 @@ export function ProductsExplorerA() {
     setSeries(null);
   }
 
-  const inCat = useMemo(() => (category ? CATALOG.filter((p) => p.category === category) : CATALOG), [category]);
+  const inCat = useMemo(() => (category ? CATALOG.filter((p) => inCategory(p, category)) : CATALOG), [category]);
   const seriesList = useMemo(() => Array.from(new Set(inCat.map((p) => p.series))), [inCat]);
   const list = inCat.filter((p) => {
     if (series && p.series !== series) return false;
@@ -38,10 +38,10 @@ export function ProductsExplorerA() {
     <>
       {/* Category navigation — tiles with the real product per category */}
       <Container>
-        <nav aria-label="CatalogItem categories" className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+        <nav aria-label="CatalogItem categories" className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-7">
           {CATEGORY_ORDER.map((c) => {
             const on = category === c;
-            const n = CATALOG.filter((p) => p.category === c).length;
+            const n = CATALOG.filter((p) => inCategory(p, c)).length;
             return (
               <button
                 key={c}
@@ -51,7 +51,7 @@ export function ProductsExplorerA() {
                 className={cn("group relative flex flex-col overflow-hidden border text-left transition-colors", on ? "border-fg" : "border-transparent hover:border-line")}
               >
                 <span className="relative block aspect-[5/4] overflow-hidden bg-studio">
-                  <Img src={CATEGORY_IMAGE[c]} alt="" fill sizes="16vw" className={cn("object-contain transition-transform duration-500 group-hover:scale-105", c === "software" ? "p-5" : "scale-110")} />
+                  <Img src={CATEGORY_IMAGE[c]} alt="" fill sizes="14vw" className={cn("object-contain transition-transform duration-500 group-hover:scale-105", c === "software" ? "p-5" : "scale-110")} />
                 </span>
                 <span className="flex items-baseline justify-between gap-2 px-3 py-3">
                   <span className="text-[0.92rem] font-semibold">{site.categories[c].label}</span>

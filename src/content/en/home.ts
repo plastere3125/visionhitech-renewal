@@ -25,7 +25,7 @@ export const homeA = {
   intro: {
     label: "Product line",
     title: "Cameras, recorders and software.",
-    lead: "Six product families from one Korean manufacturer.",
+    lead: "Seven product families from one Korean manufacturer.",
     link: "All products",
   },
   bento: {
