@@ -1,6 +1,6 @@
 # VISION HITECH 영문 사이트 리뉴얼 — 착수 분석 보고 [01]~[18]
 
-작성일: 2026-09-28 · 근거 문서: `VISIONHITECH_CONTENT_INVENTORY.md`, `REFERENCE_ANALYSIS.md`, `ASSET_SOURCES.md`
+작성일: 2026-09-28 · 개정: 2026-09-30 (구조도 R1 — Zoom Modules 반영, [02]·[03] 및 문서 끝 [추가] 참조) · 근거 문서: `VISIONHITECH_CONTENT_INVENTORY.md`, `REFERENCE_ANALYSIS.md`, `ASSET_SOURCES.md`
 
 ---
 
@@ -23,9 +23,12 @@
 
 PDF와 브리핑의 IA 일치(5개 대메뉴 / 31개 하위). 기존 사이트 대비 **신규 항목**: Solutions(AI Vision, Video Security, Transportation, Vision Marine), Support(Security Policy, FAQ, Tech Support, Marketing Materials), Media(Event, News Letter, Youtube, LinkedIn), Company(Organization) → 이 중 상당수는 기존 콘텐츠가 없음([04] 참조). 두 시안 모두 전체 IA를 헤더 메가메뉴·푸터에 반영.
 
+**구조도 R1 (2026-09-30 반영)**: `Website Structure Map_Visionhitech_260928 R1.xlsx.pdf`에서 Products에 **Zoom Modules**가 DVR 다음 위치로 추가됨(노란색 표기, 유일한 변경). IA는 5개 대메뉴 / 32개 하위가 됨.
+
 ## [03] VISION HITECH 실제 콘텐츠 인벤토리 (요약)
 
 - **제품 85 + 소프트웨어 1**: IP Camera 52 / NVR 3 / HD Analog 13 / DVR 3 / Software 1 / Accessory 14
+- **Zoom Modules 1 (R1 추가)**: `VNP36D5VAR` — 기존 사이트 `VHT ZOOM MODULE` 카테고리의 유일한 제품. IP Camera에도 그대로 포함되므로 전체 86 모델은 변동 없음
 - 회사: 설립 1997(Realtech → 2000년 사명 변경), 본사+공장 3곳 주소, R&D 센터 2003
 - 기술 14종, 품질 시험 4종, 보증 정책 전문, 인증 문서 목록, VMS 패키지 비교표
 - 전체 목록: `VISIONHITECH_CONTENT_INVENTORY.md` §1
@@ -82,3 +85,30 @@ Next.js 16 App Router + TypeScript + Tailwind 4, 정적 export. 공통: 콘텐�
 
 ## [18] GitHub Pages Deployment Plan
 독립 저장소 `plastere3125/visionhitech-renewal`(홈 디렉터리 저장소와 분리) → GitHub Actions(typecheck·lint·build with basePath) → `actions/deploy-pages`. `basePath=/visionhitech-renewal`, `trailingSlash`, `images.unoptimized`, `.nojekyll`. 배포 후 전 경로 HTTP 200 실측.
+
+---
+
+## [추가] 구조도 R1 반영 — Zoom Modules (2026-09-30)
+
+**변경 요청**: 클라이언트 구조도 R1에서 Products › Zoom Modules 추가. 시안 URL과 A/B 컨셉은 변경하지 않고 기존 시안 위에서 수정.
+
+**기존 홈페이지 확인 결과**
+- 영문 사이트에 `VHT ZOOM MODULE` 카테고리 존재(메뉴 미노출). 등록 제품은 `VNP36D5VAR`(2MP IP IR PTZ camera, 36x) 1종, 카테고리 설명문 없음.
+- 제품 85종 상세 본문에 "module" 언급 0건. 독립 줌 모듈(블록 카메라) 제품은 영문·국문 사이트 어디에도 없음.
+- 제품 외 언급: 연혁(2019-05 AF zoom module 기술 확보), Warranty(Zoom Module 9개월), Smart hardware technologies(AF zoom).
+
+**시안 반영 내용**
+
+| 위치 | 시안 A | 시안 B |
+|---|---|---|
+| 메가메뉴 | DVR 다음 `05 Zoom Modules` | `PR-05 Zoom Modules` |
+| 제품 목록 | 카테고리 타일 6 → 7 | 좌측 카테고리 필터에 추가 |
+| 홈 | 제품군 하단 줄 3 → 4 | 에코시스템 다이어그램 노드, 모델 인덱스 필터 추가 |
+| 문구 | "six product families" → "seven" | 제품 인덱스 소개문에 zoom modules 추가 |
+
+- 제품 구성: `VNP36D5VAR` 1종. 기존 사이트와 동일하게 IP Camera에도 유지(전체 86 모델 불변).
+- 카테고리 설명문: "VHT zoom module — 6–216mm optical 36× AF zoom, F1.5, with a 2MP 1/2″ SONY STARVIS CMOS." (제품 페이지 스펙만 사용)
+
+**검증**: lint·typecheck·정적 빌드 통과, E2E 17/17, 비주얼 QA 4페이지 × 4해상도 16건 이상 없음, 배포 후 라이브에서 A·B 모두 Zoom Modules 필터 시 카드 1개 확인. 커밋 `31381c3`.
+
+**클라이언트 확인 필요**: 독립 줌 모듈 라인업 의도 여부와 제품 자료(모델명·스펙·이미지). 인벤토리 §4 #15.

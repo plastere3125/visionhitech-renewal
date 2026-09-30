@@ -33,7 +33,9 @@ No Japanese page exists. The header shows **EN** (active) and **JP** as a disabl
 
 ## 3. VISION HITECH Website Structure
 
-Source: `Website Structure Map_Visionhitech_260928.pdf` (client). Implemented as the global navigation of both concepts.
+Source: `Website Structure Map_Visionhitech_260928 R1.xlsx.pdf` (client, revision R1 — applied 2026-09-30). Implemented as the global navigation of both concepts.
+
+R1 change against the first map (`Website Structure Map_Visionhitech_260928.pdf`): **Products › Zoom Modules** added after DVR (marked yellow by the client). No other item changed.
 
 | Products | Solutions | Support | Media Center | Company |
 |---|---|---|---|---|
@@ -41,12 +43,14 @@ Source: `Website Structure Map_Visionhitech_260928.pdf` (client). Implemented as
 | NVR | AI Vision | Marketing Materials | Event | History |
 | HD Analog Camera | Video Security | Download | News Letter | Vision |
 | DVR | Transportation | Security Policy | Youtube | Organization |
-| Software | Vision Marine | Certificate & Compliance | LinkedIn | Location |
-| Accessory | | Warranty | | Contact |
-| | | Tech Support | | |
+| **Zoom Modules** (R1) | Vision Marine | Certificate & Compliance | LinkedIn | Location |
+| Software | | Warranty | | Contact |
+| Accessory | | Tech Support | | |
 | | | FAQ | | |
 
 Prototype pages per concept: Home · Products (overview + filter) · Product detail (all 86 models) · Solutions overview · Solution detail (5) · Support · Company · Contact · Media Center.
+
+Zoom Modules content: the existing site has a `VHT ZOOM MODULE` product category (not shown in its menu) holding one product, `VNP36D5VAR` (2MP IP IR PTZ camera, 36×). The prototype lists that product under Zoom Modules and keeps it under IP Camera as on the existing site, so the total stays at 86 models. Concept URLs and both design concepts are unchanged.
 
 ## 4. Concept A — Global Vision Technology
 
@@ -138,6 +142,7 @@ python3 scripts/e2e-check.py http://localhost:PORT/visionhitech-renewal
 - Inquiry / contact forms are UI only. Submitting shows *"Prototype only. Backend connection will be implemented during production."* — nothing is sent.
 - Product datasheets/manuals are not publicly linked on the current site → "Request document" opens the inquiry drawer.
 - AI Vision, Transportation, Vision Marine, Security Policy, FAQ, Tech Support, Event, Newsletter, YouTube, LinkedIn, Organization: **placeholders** clearly labelled *Awaiting official content / To be confirmed*.
+- Zoom Modules shows the one product the existing site files under `VHT ZOOM MODULE` (a complete PTZ camera). No standalone zoom-module product data exists on the English or Korean site — to be supplied by the client.
 - Company history ends in 2020 and news posts date from 2020 (as on the current site).
 - Product copy is shown as published on the current site (obvious typos corrected; list in the inventory).
 - Search is client-side over the prototype catalogue; no site-wide search.

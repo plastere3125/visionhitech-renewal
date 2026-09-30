@@ -1,6 +1,6 @@
 # FACT CHECK — Revision 02
 
-Checked on 2026-09-28 against the official sources below. Scope: every factual / claim-type phrase shown on the client-facing prototype.
+Checked on 2026-09-28 against the official sources below (Zoom Modules rows added 2026-09-30, Structure Map R1). Scope: every factual / claim-type phrase shown on the client-facing prototype.
 
 Sources
 - [S1] https://visionhitechsecurity.com/about-visionhitech/ (company table, history "Times that made Visionhitech", Mission / Vision)
@@ -11,11 +11,16 @@ Sources
 - [S6] https://visionhitechsecurity.com/about-visionhitech/ceos-message/
 - [S7] https://visionhitechsecurity.com/download/ (approval documents)
 - [S8] https://visionhitechsecurity.com/ (home page)
+- [S9] https://visionhitechsecurity.com/product-category/ip-camera/vht-ip/ (VHT ZOOM MODULE category) and https://visionhitechsecurity.com/product/vnp36d5var/
 
 Status: **VERIFIED** (found on an official source, used as stated) · **SOFTENED** (official source exists but wording changed to a safer factual form) · **NOT USED**
 
 | Phrase on prototype | Status | Source / note |
 |---|---|---|
+| Zoom Modules family lists VNP36D5VAR (1 model) | VERIFIED | S9 category "VHT ZOOM MODULE" — single result VNP36D5VAR |
+| "VHT zoom module — 6–216mm optical 36× AF zoom, F1.5, with a 2MP 1/2″ SONY STARVIS CMOS." | VERIFIED | S9 product page: "6~216mm Optical x36 True AF Zoom Lens/F1.5", "2MP Full HD 1/2″ SONY STARVIS CMOS"; category name "VHT ZOOM MODULE" |
+| "Seven product families" | VERIFIED | Structure Map R1: IP Camera, NVR, HD Analog Camera, DVR, Zoom Modules, Software, Accessory |
+| Standalone zoom-module products / specifications | NOT USED | No official source on the English or Korean site |
 | Established 1997 / "Since 1997" | VERIFIED | S1 "Est. Jan, 1997"; history 1997-01 "Established Realtech", 2000-09 renamed |
 | Made in Korea / Korean-origin design and manufacture | VERIFIED | S8 "Made in Korea IP Cameras"; NDAA page & NVR/DVR pages "design and manufacture of the product are of Korean origin" |
 | NDAA compliant | VERIFIED — **scoped to "NDAA compliant models"** | S5 (listed per model: 4K/6MP IP, NVR, DVR…). Not claimed for every product |

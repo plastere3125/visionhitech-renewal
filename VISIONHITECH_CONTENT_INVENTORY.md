@@ -1,9 +1,9 @@
 # VISION HITECH — CONTENT INVENTORY
 
-Audit date: 2026-09-28
+Audit date: 2026-09-28 · updated 2026-09-30 (Structure Map R1 — Zoom Modules)
 Primary source: https://visionhitechsecurity.com/ (WordPress + WooCommerce; public REST API and rendered pages)
 Secondary official source: https://www.visionhitech.co.kr/ (Korean corporate site, linked from the English site header)
-Provided by client: `Website Structure Map_Visionhitech_260928.pdf`, `vision-logo_W-03.svg`, `vision-logo_B-02.svg`, `vision-logo_P-01.svg`
+Provided by client: `Website Structure Map_Visionhitech_260928.pdf`, `Website Structure Map_Visionhitech_260928 R1.xlsx.pdf` (R1 adds Products › Zoom Modules), `vision-logo_W-03.svg`, `vision-logo_B-02.svg`, `vision-logo_P-01.svg`
 
 Reproducible extraction: `scripts/extract-products.py` → `src/data/products.generated.json`
 
@@ -98,8 +98,16 @@ Extracted to `src/data/products.generated.json` with: model, title, tier label, 
 | NVR | 3 | VR04S / VR08S / VR16S (Middle) |
 | HD Analog Camera | 13 | 2MP (9), 5MP (2), Specialty (2) |
 | DVR | 3 | VD04T / VD08T / VD16T Hybrid DVR |
+| Zoom Modules (R1) | 1 | `VNP36D5VAR` — the only product in the existing WooCommerce category `VHT ZOOM MODULE` (slug `vht-ip`, id 98). Also counted under IP Camera › 2MP (PTZ), as on the existing site |
 | Software | 1 | NVR C/S Video Management Software (from /products-solutions/solutions/) |
 | Accessory | 14 | 13 mounts / junction boxes / adaptors + WTX-1200A PTZ controller |
+
+Zoom Modules (added 2026-09-30, Structure Map R1). Checked on 2026-09-30:
+- Category page https://visionhitechsecurity.com/product-category/ip-camera/vht-ip/ — "Showing the single result": VNP36D5VAR (2MP IP IR PTZ camera, Ultra STARLUX, 36x). The category has no description text and is not linked from the site menu.
+- None of the 85 product pages contains the word "module".
+- Site search for "zoom module" returns no standalone zoom-module product. Non-product pages that match: About (history 2019-05 "Secured its own technology for AF zoom module"), Warranty ("Zoom Module" 9 months), Smart hardware technologies (AF zoom). (The Contact page also matches the search, but its visible content has no zoom-module wording.)
+- Korean site product menu (IP Camera / AHD / TVI / 열화상 솔루션 / Accessories / TTA 인증 카메라) has no zoom-module category or product.
+- Prototype: the product keeps IP Camera as its primary category and carries `alsoIn: ["zoom-module"]` (written by `scripts/extract-products.py` from the `vht-ip` category), so it appears in both families and the 86-model total is unchanged. Category line shown on the prototype: "VHT zoom module — 6–216mm optical 36× AF zoom, F1.5, with a 2MP 1/2″ SONY STARVIS CMOS." — assembled from the VNP36D5VAR product page specifications.
 
 Excluded: `VNN31E54AR` — listed as "TTA Certification camera – Coming soon !!!!" with no content.
 
@@ -128,6 +136,7 @@ Non-Hisilicon Recorder Launched · New Ambarella Smart H.265 IPC · Ultra Lowlig
 | Solutions › AI Vision | No page. Only evidence: 2018-12 "Server-based Video Analysis solution", CEO message "deep learning-based AI camera series" (in development), PTZ spec "Intelligent Object based Motion Detection", news "VA is available by Edge based" (incomplete sentence). **No AI function list, accuracy, or model support exists.** |
 | Solutions › Transportation | No page. Evidence: Incheon International Airport supply (2018), E-Mark vehicle approvals (VDA50SMTi, VCI70131), 10× zoom camera use examples ("highway intersection, crossroad, airport"). |
 | Solutions › Vision Marine | No page. Evidence: "world's first engine room Camera" (2018), Corridor View example "Passenger boat". No marine product line on the English site. |
+| Products › Zoom Modules (R1) | Category exists with one product (a complete PTZ camera). No standalone zoom-module / block-camera product, specification or image on the English or Korean site. |
 | Solutions › Video Security | No dedicated page; content can be assembled from verified technology pages. |
 | Support › Security Policy | No page (product cyber-security policy). |
 | Support › FAQ | No English FAQ. Korean site has a FAQ board. |
@@ -170,3 +179,4 @@ Non-Hisilicon Recorder Launched · New Ambarella Smart H.265 IPC · Ultra Lowlig
 | 12 | Image ownership | Lifestyle images on the current site (airport travellers, cyclists, city night, crowd) may be stock — licence to be confirmed for production. |
 | 13 | Typos corrected on display | Complaint→Compliant, STALUX→STARLUX, STAVIS→STARVIS, Wide-Angel→Wide-Angle, 3-Aix/3-Asix→3-Axis, Amor→Armor, Visionohitech→Visionhitech, Hight→High. |
 | 14 | Korean-site Vision translation | Not used; English site has its own Vision text. |
+| 15 | Zoom Modules line-up | Structure Map R1 adds Products › Zoom Modules. Existing site offers only VNP36D5VAR (PTZ camera) in that category. Client to confirm the intended line-up and supply model names, specifications and images for standalone zoom modules. |
