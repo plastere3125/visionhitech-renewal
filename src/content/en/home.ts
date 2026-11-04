@@ -87,6 +87,154 @@ export const homeA = {
     primary: "Product Inquiry",
     secondary: "Contact",
   },
+
+  /**
+   * Revision 03 — client feedback (Webpage_Layout_대강.xlsx, 2026-11-03).
+   * Titles marked CLIENT are copied verbatim from the client file. Descriptions are condensed from
+   * verified VISION HITECH statements (solutions.ts / technology.ts / site.ts / company.ts).
+   */
+  r3: {
+    hero: {
+      srTitle: "VISION HITECH — video surveillance solutions, designed and manufactured in Korea",
+      label: "Solution",
+      ctas: { explore: "Explore Products", inquiry: "Inquiry", download: "Download" },
+      pause: "Pause slideshow",
+      play: "Play slideshow",
+      tabsLabel: "Solutions",
+      slides: [
+        {
+          // CLIENT ①
+          title: "End-to-end Video Surveillance Solution",
+          short: "End-to-end",
+          body: "Cameras, recorders and video management software from one Korean manufacturer.",
+          href: "/solutions/video-security/",
+          bg: "env-logistics-dusk",
+          visual: "chain",
+        },
+        {
+          // CLIENT ②
+          title: "Ultra Low Light 24/7 Color Solution",
+          short: "Ultra Low Light",
+          body: "Ultra STARLUX — full colour in as low as 0.1 lux darkness.",
+          href: "/solutions/technology/",
+          bg: "env-crossroads",
+          visual: "lux",
+        },
+        {
+          // CLIENT ③
+          title: "Zoom Modules",
+          short: "Zoom Modules",
+          body: "6–216mm optical 36× AF zoom, F1.5, with a 1/2″ SONY STARVIS CMOS.",
+          href: "/products/#zoom-module",
+          bg: "env-marine-day",
+          visual: "zoom",
+        },
+        {
+          // CLIENT ④ — identical to ① in the client file. NEEDS CLIENT CONFIRMATION (CLIENT_FEEDBACK_REVISION.md).
+          title: "End-to-end Video Surveillance Solution",
+          short: "End-to-end",
+          body: "Capture, record and manage — IP and HD analog cameras, NVRs, hybrid DVRs and VMS.",
+          href: "/solutions/video-security/",
+          bg: "env-city-night",
+          visual: "vms",
+        },
+      ],
+    },
+    solution: {
+      label: "Solution",
+      title: "Solution",
+      cards: [
+        { title: "End-to-end Video Surveillance Solution", body: "Cameras, recorders and video management software from one manufacturer.", href: "/solutions/video-security/" },
+        { title: "Ultra Low Light 24/7 Color Solution", body: "Full colour in as low as 0.1 lux darkness with Ultra STARLUX.", href: "/solutions/technology/" },
+        { title: "Zoom Modules", body: "6–216mm optical 36× AF zoom with a 1/2″ SONY STARVIS CMOS.", href: "/products/#zoom-module" },
+        // CLIENT title. Body limited to verified facts — no AI features are claimed.
+        { title: "Edge AI Video Solution", body: "In-house video analysis since 2018, with deep learning-based AI cameras in development.", href: "/solutions/ai-vision/" },
+      ],
+      compareLabels: ["Normal · 0.1 lux", "Ultra STARLUX · 0.1 lux"],
+    },
+    why: {
+      label: "Why Visionhitech",
+      title: "Why Visionhitech Co., Ltd.",
+      // CLIENT-PROVIDED titles (see FACT_CHECK.md §Revision 03).
+      items: [
+        { title: "Korea's Best R&D Power", href: "/company/#history" },
+        { title: "Korea's Largest OEM/ODM Manufacturer", href: "/company/#location" },
+        { title: "Severe Quality Control", href: "/company/#quality" },
+        { title: "Stable & Long-Term Business", href: "/company/#history" },
+      ],
+      caption: "Head office & factory — Bucheon, Korea",
+    },
+    network: {
+      label: "Products",
+      title: "Network Products",
+      cards: [
+        { title: "IP Camera", body: "Network cameras from 2MP to 4K UHD — bullet, dome, PTZ and panoramic.", href: "/products/#ip-camera", cat: "ip-camera" },
+        { title: "NVR", body: "NDAA compliant H.265 PoE recorders, 4 to 16 channels.", href: "/products/#nvr", cat: "nvr" },
+        { title: "Software", body: "NVR C/S video management software for small and midsize sites.", href: "/products/#software", cat: "software" },
+        { title: "Zoom Module", body: "6–216mm optical 36× AF zoom, F1.5, 2MP 1/2″ SONY STARVIS CMOS.", href: "/products/#zoom-module", cat: "zoom-module" },
+        { title: "Accessory", body: "Junction boxes, mounts and adaptors.", href: "/products/#accessory", cat: "accessory" },
+      ],
+    },
+    analog: {
+      label: "Products",
+      title: "HD Analog Products",
+      cards: [
+        { title: "AHD/ TVI Cameras", body: "2MP and 5MP HD analog bullet, dome and miniature cameras.", href: "/products/#hd-analog-camera", cat: "hd-analog-camera" },
+        { title: "DVR", body: "NDAA compliant H.265 hybrid DVRs, self-adaptive TVI/AHD/CVI/CVBS.", href: "/products/#dvr", cat: "dvr" },
+        { title: "Software", body: "Video management software and setup utilities.", href: "/products/#software", cat: "software" },
+        { title: "Accessory", body: "Wall, ceiling and pole mounts and a PTZ controller.", href: "/products/#accessory", cat: "accessory" },
+      ],
+    },
+    special: {
+      label: "Products",
+      title: "Special Camera",
+      cards: [
+        {
+          title: "Transportation Camera",
+          body: "E-Mark approved vehicle models and long-range cameras for roads and airports.",
+          href: "/solutions/transportation/",
+          bg: "env-train",
+          product: "vci70131",
+          productNote: "VCI70131 · E-Mark approved",
+          alt: "Passenger train interior",
+          credit: "Photo: Trougnouf, CC BY 4.0",
+        },
+        {
+          title: "Marine Camera",
+          body: "Engine-room camera since 2018, products tested for water, immersion and vibration.",
+          href: "/solutions/vision-marine/",
+          bg: "env-engine-room",
+          product: "vnv23194ar",
+          productNote: "VNV23194AR · related model",
+          alt: "Ship engine room",
+          credit: "Photo: LEE 003, CC BY 4.0",
+        },
+      ],
+    },
+    application: {
+      label: "Application",
+      title: "Application",
+      // CLIENT placeholders — real names NEEDS CLIENT CONFIRMATION. Do not invent names.
+      items: ["A", "B", "C", "D", "E"].map((t) => ({ title: t, href: "/solutions/" })),
+      credit: "Photo: Martin Damboldt, CC0",
+    },
+    support: {
+      label: "Support",
+      title: "Support",
+    },
+    news: {
+      label: "Media Center",
+      title: "What's new?",
+      credit: "Photo: Andreas Levers, CC BY 2.0 (monochrome)",
+    },
+    footer: {
+      inquiryTitle: "Product Inquiry",
+      inquiryBody: "Project quotes, documents and samples — directly from the manufacturer in Korea.",
+      inquiry: "Product Inquiry",
+      contact: "Contact",
+      follow: "Follow",
+    },
+  },
 };
 
 export const homeB = {

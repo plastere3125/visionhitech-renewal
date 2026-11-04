@@ -372,7 +372,7 @@ export function CompanyPageA() {
         </Container>
       </section>
 
-      <section aria-labelledby="quality-h" className="border-t border-line bg-panel py-16 md:py-20">
+      <section id="quality" aria-labelledby="quality-h" className="scroll-mt-28 border-t border-line bg-panel py-16 md:py-20">
         <Container className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <p className="a-label text-mute">Quality</p>

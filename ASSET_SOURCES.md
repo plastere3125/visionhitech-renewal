@@ -181,6 +181,12 @@ Licences verified from the Commons file-description API (`extmetadata.LicenseSho
 | `public/images/env/env-marine-night.webp` | Colombo Express in Altenwerder at night-799096.jpeg | Martin Damboldt | CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en) | https://commons.wikimedia.org/wiki/File:Colombo_Express_in_Altenwerder_at_night-799096.jpeg | yes |
 | `public/images/env/env-crossroads.webp` | Crossroads - Flickr - -mtnoxx.jpg | Adam Meek from Centennial, Colorado | CC BY 2.0 (https://creativecommons.org/licenses/by/2.0) | https://commons.wikimedia.org/wiki/File:Crossroads_-_Flickr_-_-mtnoxx.jpg | yes |
 | `public/images/env/env-city-night.webp` | Kazan city night aerial view southboubd (16862948046).jpg | Artem Svetlov from Moscow, Russia | CC BY 2.0 (https://creativecommons.org/licenses/by/2.0) | https://commons.wikimedia.org/wiki/File:Kazan_city_night_aerial_view_southboubd_(16862948046).jpg | yes |
+| `public/images/env/env-train.webp` | Interior of SNCB Desiro ML (Class AM08 08161 at Antwerp Central Station, DSCF4795).jpg | Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Interior_of_SNCB_Desiro_ML_(Class_AM08_08161_at_Antwerp_Central_Station,_DSCF4795).jpg | yes (R3, cropped 3:2) |
+| `public/images/env/env-engine-room.webp` | Pulau Pinang Engine Room 47.jpg | LEE 003 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Pulau_Pinang_Engine_Room_47.jpg | yes (R3, cropped 3:2) |
+| `public/images/env/env-logistics-dusk.webp` | ID Logistics Bollène- ITM- 20240426 211053.jpg | RhôneA7 | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:ID_Logistics_Boll%C3%A8ne-_ITM-_20240426_211053.jpg | yes (R3, cropped 3:2) |
+| `public/images/env/env-glass.webp` | Glass Curve - Flickr - 96dpi.jpg | Andreas Levers from Potsdam, Germany | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Glass_Curve_-_Flickr_-_96dpi.jpg | yes (R3, converted to monochrome — credit states "monochrome") |
+
+Revision 03 (2026-11-04): licences re-read from the Commons API (`extmetadata.LicenseShortName`, `Artist`). Every environment image also ships as `-1280.webp` and `-768.webp` for `srcset`; only the first hero image is fetched with high priority. A CC0 lobby photo was evaluated and rejected (a third-party building name is visible in the glass). No product image was generated or altered.
 
 ## 4. Fonts
 

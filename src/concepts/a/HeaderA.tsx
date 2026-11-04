@@ -8,6 +8,7 @@ import { Img } from "@/components/shared/Img";
 import { Logo } from "@/components/shared/Logo";
 import { LanguageSwitch } from "@/components/shared/LanguageSwitch";
 import { InquiryButton } from "@/components/shared/Inquiry";
+import { SocialIcons } from "@/components/shared/Social";
 import { CATEGORY_IMAGE } from "@/data/visuals";
 import type { CategoryId } from "@/data/catalog";
 import { productsIn } from "@/data/catalog";
@@ -71,13 +72,18 @@ export function HeaderA() {
   };
 
   const active = site.nav.find((g) => g.id === openId);
+  // Revision 03: on the homepage the header sits on the full-image hero (white logo / menu / icons) until scroll or menu open.
+  const isHome = /^\/concept-a\/?$/.test(pathname);
+  const overlay = isHome && !scrolled && !openId && !mobileOpen;
 
   return (
     <>
     <header
       className={cn(
         "sticky top-0 z-50 border-b transition-[background-color,border-color,box-shadow] duration-300",
-        scrolled || openId ? "border-line bg-white/95 backdrop-blur-md" : "border-transparent bg-white",
+        overlay
+          ? "border-white/15 bg-transparent text-white [text-shadow:0_1px_10px_rgba(0,0,0,.25)]"
+          : scrolled || openId ? "border-line bg-white/95 backdrop-blur-md" : "border-transparent bg-white",
       )}
       onMouseLeave={leave}
     >
@@ -86,7 +92,7 @@ export function HeaderA() {
       </a>
       <div className={cn("mx-auto flex max-w-[1440px] items-center gap-8 px-5 transition-[height] duration-300 md:px-10", scrolled ? "h-16" : "h-16 lg:h-[76px]")}>
         <CLink concept="a" href="/" className="shrink-0" aria-label="VISION HITECH home">
-          <Logo variant="primary" height={scrolled ? 22 : 25} className="transition-all duration-300" />
+          <Logo variant={overlay ? "white" : "primary"} height={scrolled ? 22 : 25} className="transition-all duration-300" />
         </CLink>
 
         <nav aria-label="Main" className="hidden h-full lg:block">
@@ -101,7 +107,7 @@ export function HeaderA() {
                   onFocus={() => enter(g.id)}
                   className={cn(
                     "relative flex h-full items-center px-4 text-[0.92rem] font-medium tracking-[-0.01em] transition-colors",
-                    openId === g.id ? "text-fg" : "text-fg/80 hover:text-fg",
+                    overlay ? "text-white/90 hover:text-white" : openId === g.id ? "text-fg" : "text-fg/80 hover:text-fg",
                   )}
                 >
                   {g.label}
@@ -116,10 +122,18 @@ export function HeaderA() {
         </nav>
 
         <div className="ml-auto flex items-center gap-3 md:gap-5">
-          <LanguageSwitch className="hidden sm:flex" />
-          <InquiryButton className="hidden bg-fg px-4 py-2.5 text-[0.82rem] font-semibold text-white transition-colors hover:bg-accent hover:text-fg md:inline-flex">
-            {site.ui.productInquiry}
-          </InquiryButton>
+          <LanguageSwitch className="hidden sm:flex" light={overlay} />
+          <div className="hidden items-center gap-2 md:flex">
+            <SocialIcons iconClassName={overlay ? "text-white/85 hover:text-white" : "text-fg/55 hover:text-fg"} />
+            <InquiryButton
+              className={cn(
+                "inline-flex px-4 py-2.5 text-[0.82rem] font-semibold transition-colors [text-shadow:none]",
+                overlay ? "bg-white text-fg hover:bg-accent" : "bg-fg text-white hover:bg-accent hover:text-fg",
+              )}
+            >
+              {site.ui.productInquiry}
+            </InquiryButton>
+          </div>
           <button
             type="button"
             className="-mr-2 flex h-10 w-10 items-center justify-center lg:hidden"
@@ -129,8 +143,8 @@ export function HeaderA() {
             onClick={() => setMobileOpen((v) => !v)}
           >
             <span className="relative block h-3 w-6">
-              <span className={cn("absolute left-0 h-[1.5px] w-6 bg-fg transition-transform", mobileOpen ? "top-1.5 rotate-45" : "top-0")} />
-              <span className={cn("absolute left-0 h-[1.5px] w-6 bg-fg transition-transform", mobileOpen ? "top-1.5 -rotate-45" : "top-3")} />
+              <span className={cn("absolute left-0 h-[1.5px] w-6 transition-transform", overlay ? "bg-white" : "bg-fg", mobileOpen ? "top-1.5 rotate-45" : "top-0")} />
+              <span className={cn("absolute left-0 h-[1.5px] w-6 transition-transform", overlay ? "bg-white" : "bg-fg", mobileOpen ? "top-1.5 -rotate-45" : "top-3")} />
             </span>
           </button>
         </div>
@@ -214,6 +228,7 @@ export function HeaderA() {
           <LanguageSwitch />
           <InquiryButton className="bg-fg px-5 py-3 text-sm font-semibold text-white">{site.ui.productInquiry}</InquiryButton>
         </div>
+        <SocialIcons className="mt-6 -ml-2" iconClassName="text-fg/70 hover:text-fg" />
         <p className="mt-8 text-sm text-mute">
           {site.contact.tel}
           <br />

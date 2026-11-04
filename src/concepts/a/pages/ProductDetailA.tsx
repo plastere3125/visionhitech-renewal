@@ -70,7 +70,7 @@ export function ProductDetailA({ product: p }: { product: Product }) {
 
         <div className="lg:col-span-5">
           {p.tier && <p className="a-label text-accent-ink">{p.tier}</p>}
-          <h1 className="a-display mt-4 text-[2.8rem] md:text-[3.6rem]">{p.model}</h1>
+          <h1 className="a-display mt-4 text-[2.8rem] md:text-[3.6rem] lg:text-[3rem] xl:text-[3.6rem]">{p.model}</h1>
           {p.modelVariant && <p className="mt-1 font-mono text-sm text-mute">{p.modelVariant}</p>}
           <p className="mt-4 text-[1.15rem] leading-snug text-fg/80">{p.title}</p>
 

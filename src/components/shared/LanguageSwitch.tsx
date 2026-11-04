@@ -3,7 +3,7 @@ import { getContent } from "@/content";
 import { cn } from "@/lib/cn";
 
 /** EN is live. JP is shown as a disabled "coming soon" state — no Japanese pages exist yet. */
-export function LanguageSwitch({ className }: { className?: string }) {
+export function LanguageSwitch({ className, light }: { className?: string; light?: boolean }) {
   const { site } = getContent();
   return (
     <div className={cn("flex items-center gap-1 text-xs font-medium", className)} role="group" aria-label="Language">
@@ -17,7 +17,7 @@ export function LanguageSwitch({ className }: { className?: string }) {
             key={l.code}
             aria-disabled="true"
             title={site.ui.languageComingSoon}
-            className="group relative cursor-not-allowed px-1.5 py-1 text-mute/70"
+            className={cn("group relative cursor-not-allowed px-1.5 py-1", light ? "text-white/65" : "text-mute/70")}
           >
             {l.label}
             <span className="sr-only"> — {site.ui.languageComingSoon}</span>

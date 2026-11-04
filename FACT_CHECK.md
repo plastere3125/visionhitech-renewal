@@ -56,3 +56,22 @@ Status: **VERIFIED** (found on an official source, used as stated) · **SOFTENED
 "To be confirmed", "Awaiting official content", "Reserved for official AI Vision content", "Content slots for production", "Verified / Partially verified / PENDING" status labels, "Content note: model code differs…", source/SRC lines, "Latest posts … date from June 2020", "details awaiting", "scope / models to be confirmed", "PHOTO · TO BE CONFIRMED", "Map embed … to be confirmed", warranty confirmation note, "no dedicated … page" sentences, "(as stated by VISION HITECH)", "Illustrative 16CH …".
 
 These items remain tracked in `VISIONHITECH_CONTENT_INVENTORY.md` (§2–§4) and in the `pending` fields of `src/content/en/solutions.ts` (not rendered). Where official content is missing the page shows a generic heading with a quiet "Coming soon" or a "Contact our team" action.
+
+## Revision 03 — client feedback (Webpage_Layout_대강.xlsx, 2026-11-03)
+
+| Item | Status | Basis / handling |
+|---|---|---|
+| "Korea's Best R&D Power" | **CLIENT-PROVIDED CLAIM** | Title written by the client in the Excel file (벤토그리드 · 3단). Shown as a title only — no supporting ranking or figure is added. Not expanded to "No.1", "Market Leader", "World's Largest" etc. |
+| "Korea's Largest OEM/ODM Manufacturer" | **CLIENT-PROVIDED CLAIM** | Same as above. No OEM/ODM ranking or volume source exists on the current official site. Client to confirm the wording and supporting evidence before production |
+| "Severe Quality Control", "Stable & Long-Term Business" | CLIENT-PROVIDED (descriptive) | Learn More links to Company › Quality (ISO 9001 / 14001, IP69K / IP68 / vibration tests) and Company › History (since 1997) |
+| Solution titles: End-to-end Video Surveillance / Ultra Low Light 24/7 Color / Zoom Modules / Edge AI Video Solution | CLIENT-PROVIDED titles | One-line descriptions use verified statements only: one-manufacturer cameras/recorders/VMS (S1), Ultra STARLUX 0.1 lux (S4), 6–216mm 36× AF zoom, 1/2″ STARVIS (S5 VNP36D5VAR), server-based video analysis 2018 + deep learning AI camera development (S1, S6) |
+| "Edge AI Video Solution" | CLIENT-PROVIDED title — **no AI function claimed** | Edge vs. server processing architecture is still unconfirmed (solutions.ts pending). The card visual is an abstract night-city image with no detection boxes |
+| Hero slide ④ title | **NEEDS CLIENT CONFIRMATION** | Identical to slide ① in the client file; kept verbatim |
+| Application ①–⑤ | **NEEDS CLIENT CONFIRMATION** | Client file lists "A"–"E" only; shown as A–E, no names invented |
+| Transportation Camera: "E-Mark approved vehicle models" | VERIFIED | Download center — Vehicle Approval Authority (E-MARK) for VDA50SMTi and VCI70131 |
+| Transportation Camera: "long-range cameras for roads and airports" | VERIFIED | S4 smart hardware page (10× bullet use cases: highway intersection, crossroad, airport) |
+| Marine Camera: "Engine-room camera since 2018" | VERIFIED | S1 History 2018 "Launched an engine room Camera" |
+| Marine Camera product tile (VNV23194AR) | Labelled "related model" | Listed as a related product of Vision Marine in solutions.ts; not presented as a marine-certified camera |
+| AHD/TVI cameras: "2MP and 5MP … bullet, dome and miniature" | VERIFIED | Product catalogue (HD analog category); TVI/AHD/CVI/CVBS output listed on HD analog product pages |
+| YouTube / LinkedIn | No official URL found | visionhitechsecurity.com and visionhitech.co.kr checked 2026-11-04 — icons link to Media Center › Youtube / LinkedIn sections |
+| Media dates | Unchanged | Old post dates are not altered and no date is shown on the homepage boxes |

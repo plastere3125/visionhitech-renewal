@@ -24,7 +24,7 @@
   --fg: #16181b;
   --mute: #5f646c;
   --line: #e3e4e6;
-  --panel: #f7f7f5;
+  --panel: #f8f8f8; /* Revision 03: neutral off-white band tone (was warm #f7f7f5) */
   --accent-ink: #b8511f;
   --font-body: var(--font-archivo), "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;
   --font-display: var(--font-archivo), "Noto Sans JP", "Hiragino Sans", system-ui, sans-serif;

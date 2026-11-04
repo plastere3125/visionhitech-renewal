@@ -98,11 +98,39 @@ with sync_playwright() as p:
     check("[A] Mobile navigation after scroll (panel full height)", mobile_scrolled)
 
     def slider():
-        d.goto(f"{BASE}/concept-a/", wait_until="networkidle")
-        r = d.locator("#tech-a-panel input[type=range]")
+        # Revision 03: the homepage technology band was removed (client section order); the slider lives on Solutions › Technology.
+        d.goto(f"{BASE}/concept-a/solutions/technology/", wait_until="networkidle")
+        r = d.locator("input[type=range]").first
         r.focus(); v0 = r.input_value(); d.keyboard.press("ArrowRight"); d.keyboard.press("ArrowRight")
         assert r.input_value() != v0, "range did not change with keyboard"
     check("[A] Compare slider keyboard", slider)
+
+    def hero_r3():
+        d.goto(f"{BASE}/concept-a/", wait_until="networkidle")
+        sec = d.locator("section[aria-roledescription=carousel]")
+        tabs = sec.get_by_role("tab")
+        assert tabs.count() == 4, f"tabs {tabs.count()}"
+        tabs.nth(2).click()
+        expect(sec.locator("h2").first).to_have_text("Zoom Modules")
+        for name in ("Explore Products", "Inquiry", "Download"):
+            assert sec.get_by_text(name, exact=True).first.is_visible(), name
+        sec.get_by_role("button", name="Inquiry").click()
+        expect(d.locator("dialog[open]")).to_be_visible(); d.keyboard.press("Escape")
+        hdr = d.locator("header").first
+        assert "bg-transparent" in hdr.get_attribute("class"), "header not transparent on hero"
+        d.mouse.wheel(0, 900); d.wait_for_timeout(500)
+        assert "bg-white" in hdr.get_attribute("class"), "header not white after scroll"
+    check("[A] R3 hero: 4 tabs, 3 CTA, inquiry, header overlay→white", hero_r3)
+
+    def bands_r3():
+        d.goto(f"{BASE}/concept-a/", wait_until="networkidle")
+        order = d.eval_on_selector_all("main section h2", "els => els.map(e => e.textContent.trim())")
+        want = ["Solution", "Why Visionhitech Co., Ltd.", "Network Products", "HD Analog Products", "Special Camera", "Application", "Support", "What's new?"]
+        got = [t for t in order if t in want]
+        assert got == want, f"section order {got}"
+        assert d.locator("header a[aria-label=Youtube]").count() == 1 and d.locator("header a[aria-label=LinkedIn]").count() == 1, "header social icons"
+        assert d.locator("footer a[aria-label=Youtube]").count() == 1, "footer social icons"
+    check("[A] R3 homepage band order 2–9 + social icons", bands_r3)
 
     def eco():
         d.goto(f"{BASE}/concept-b/", wait_until="networkidle")
